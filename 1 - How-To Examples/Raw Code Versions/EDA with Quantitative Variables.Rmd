@@ -157,6 +157,7 @@ points_hist <- RGVB_team %>%
             theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank())
 points_hist
 ```
+
 ## Density Curve
 
 There are times when a density curve will more clearly show the distribution of quantitative data. Let's say you are going through your EDA and create a histogram first and realize a density curve would be a better visualization:
