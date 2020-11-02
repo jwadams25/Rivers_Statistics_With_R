@@ -117,7 +117,7 @@ This is the code that adds in this line:
 geom_vline(aes(xintercept = mean(Points_For)), color = "black")
 
 
-```{r histogram distribution axes scales}
+```{r histogram vertical line for mean}
 
 points_hist <- RGVB_team %>%
             ggplot(aes(x = Points_For)) +
@@ -153,7 +153,7 @@ points_hist <- RGVB_team %>%
                  subtitle = "2018-2019 Season") +
             scale_x_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) +
             scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) +
-            geom_vline(aes(xintercept = mean(Points_For)), color = "blue")+
+            geom_vline(aes(xintercept = mean(Points_For)), color = "blue") +
             theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank())
 points_hist
 ```
