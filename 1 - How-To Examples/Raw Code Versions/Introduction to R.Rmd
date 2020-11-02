@@ -1,10 +1,12 @@
 ---
 title: "Introduction to R - Basic Features"
 author: "Mr. Adams"
-output:
-  html_document:
-    df_print: paged
+output: github_document
 ---
+
+```{r, echo=FALSE}
+library(tidyverse)
+```
 
 # Welcome to R
 
@@ -75,10 +77,6 @@ age_col_df
 ### Naming Visualizations
 
 Future tutorials will show you how to create many different types of visualizations. You can name visualizations too, which becomes helpful when you have a lot of them, and you want to stay organized. 
-
-```{r, echo=FALSE}
-library(tidyverse)
-```
 
 Here I am going to create a data frame and then create a histogram of those data. 
 
