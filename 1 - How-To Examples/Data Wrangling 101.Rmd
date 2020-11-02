@@ -1,0 +1,90 @@
+---
+title: "Data Wrangling 101"
+author: "Mr. Adams"
+output: github_document
+---
+
+Often your data frame won't be perfectly clean, so you will have to make slight changes to it to properly work with it to answer your research questions. This document will detail commonly used functions for data wrangling. 
+
+## Load Packages and Libraries
+
+There are specific packages others have built that allow you to do complex tasks with little effort. When you first use RStudio, be sure to install the necessary packages.  After you install the package(s), you need to be sure to load the library for each of the packages that you will use for your analysis.   
+
+For this class, we will use several different packages, but we will start with the following package. 
+
+- tidyverse: This contains, among other things, the packages ggplot, which allows you to make visualizations and dplyr, which will enable you to wrangle your data frame. 
+
+```{r install package and load library}
+library(tidyverse)
+```
+
+## Viewing Your Data
+
+Before you begin analyzing your data, you need to familiarize yourself with the data frame. 
+Ask yourself:
+How many variables do I have?
+What type of variables do I have?
+What are my observational units? 
+
+For this demo, we will use a data frame called "diamonds" that comes with the Tidyverse package.
+
+This code will allow you to see the variables and the first few observations. The default is to show the first six observations. To change the number of rows that appear, add a comma, and then the number of rows you want to show up.
+
+```{r Viewing your data}
+head(diamonds)
+head(diamonds, 10)
+diamonds
+```
+
+## Using the Select Function
+This function is particularly helpful when you have a lot of variables in your dataset. If, for example, you had 50 variables, it would be hard to focus on the few variables you want to analyze. The select function allows you to create a new data frame that includes only the variables you want.
+
+The diamonds dataset has ten variables. Let's make a new data frame that only includes cut, clarity, carat, color, and the price.
+```{r using the select function}
+fourcs_price <- diamonds %>%
+                select(carat, cut, color, clarity, price)
+head(fourcs_price)
+```
+
+## Filter
+
+Often you want to focus on a certain subset of your dataset. For example, when analyzing the diamonds dataset, you may only want to study a particular cut of diamond. The Filter function allows us to take out just the subset of observations that we want. Here is an example of how to do just that. This code can be read in plain English "Hey computer, give me information on only the diamonds that have an Ideal cut. While you are at it, name the new data frame, 'Ideals.'"
+
+```{r Filtering a character}
+ideals <- diamonds %>%
+         filter(cut == "Ideal")
+ideals
+```
+
+You can also filter for a range of numbers. The filter below makes a data frame, named below_fiveK, that includes only diamonds less than $5,000
+
+
+```{r Filter, include=FALSE}
+below_fiveK <- diamonds %>%
+         filter(price < 5000)
+below_fiveK
+```
+
+## Mutate
+
+You may also want to create new variables. Using the diamonds dataset, we may wish to study the question, "What is the distribution of price per carat?" (Carat is the units for measuring the size of a diamond.) When looking at the diamonds data frame, you can see it does not include price per carat. Therefore, we will use the mutate function to add it.
+
+```{r mutate}
+diamonds_with_ppc <- diamonds %>%
+                      mutate(ppc = price/carat)
+diamonds_with_ppc
+```
+
+## Group_by 
+
+Let's say you want to compare the prices of different color diamonds. In doing so, you want to calculate the average price and standard deviation of the price variable for each respective color. Therefore, you need to put all the observations into groups of colors. 
+
+```{r group by}
+color_groups_sum_stats <- diamonds %>%
+                group_by(color) %>%
+                summarize(avg = mean(price), standard_deviation = sd(price))
+color_groups_sum_stats
+```
+
+
+

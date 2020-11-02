@@ -1,0 +1,269 @@
+---
+title: "Introduction to Visualizations for EDA"
+author: "John Adams"
+output: github_document
+---
+
+An essential aspect of exploratory data analysis is visualizing your data. It allows you to draw conclusions more easily. This document will walk through a few visualizations you can create to see the story your data tells. 
+
+## Load Tidyverse Library
+```{r tidyverse, warning=FALSE}
+library(tidyverse)
+library(readr)
+```
+
+## Load the Data
+
+This dataset comes form the Rivers girls basketball team during the 2018-2019 season. It is currently located on Github so you will ask R to go get the link and convert it to a csv so you can work with it here on RStudio. 
+```{r get the data}
+urlfile="https://raw.githubusercontent.com/jwadams25/high_school_Rstats/master/girls_bball_2018.csv"
+RGVB_team <- read.csv(url(urlfile))
+```
+
+## Look at the data
+
+Before diving into any visualizations, it's good to understand the data. What are the observational unites. What variables are included? What type of variables are they?  
+
+You do not need to look at all of the observations. You can just take ath the first row so you can first answer the questions listed above. To get a glipse, you use the code head() and inside the parentheses you will put the name of the dataset, which in htis case is RGVB_team
+
+```{r Look at the data}
+head(RGVB_team)
+```
+### Questions to Answer:
+- What are the obervational units?
+- How many 
+- How many variables does this dataset have?
+- What are three quantitative varibles? Write them out by typing the exact label given in the dataset. 
+
+
+## Now that we have an understanding of the data and the types of questions we can explore, let's start making some visualizations.
+
+## Histogram
+
+A histogram is a great way of seeing the distribution of quantitative data. Let's start by analyzing the distribution of the points scored by the Rivers Girls Varsity Basketball team in each of their games during the 2018-2019 season. The variable name in the data fram is Points_For 
+
+```{r histogram distribution of points scored by Rivers}
+points_hist <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_histogram()
+points_hist
+```
+
+Now let's add some labels to your axes and give the histogram a title. To start, I copied and pasted the code from above and then entered the code labs(x = "Points Scored", y = "Number of Games", title = "Distribution of Points Scored Per Game By Rivers Girls Basketball", subtitle = "2018-2019 Season")
+
+Note: Anything inside the quotes can be whatever you'd like. Be sure they are easy to understand and properly represent what appears on the visualization. 
+
+```{r histogram distribution of points for with labels}
+points_hist <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_histogram() +
+            labs(x = "Points Scored", 
+                 y = "Number of Games", 
+                 title = "Distribution of Points Scored Per Game By Rivers Girls Basketball",
+                 subtitle = "2018-2019 Season")
+points_hist
+```
+
+You'll see that a message popped up that says in part "Pick a better value with 'binwidth'" Let's make that change by adding in bindwith = 5 Reference data visualization principles to make an appropriate binwidth for your analysis. 
+
+
+```{r histogram distribution with new bins}
+points_hist <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_histogram(binwidth = 5) +
+            labs(x = "Points Scored", y = "Number of Games", title = "Distribution of Points Scored Per Game By Rivers Girls Basketball", subtitle = "2018-2019 Season")
+points_hist
+```
+
+### Question to Answer
+
+- Why does changing the binwidth change the look of the picture? 
+
+
+- Why would you want to change the binwidth?
+
+
+To finish let's set the scales of the x and y axes so that they better match the binwidth. 
+
+add in a line for the median, and change the theme to clean things up a bit. 
+```{r histogram distribution axes scales}
+
+points_hist <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_histogram(binwidth = 5, color = "white", fill = "red") +
+            labs(x = "Points Scored", 
+                 y = "Number of Games", 
+                 title = "Distribution of Points Scored Per Game By Rivers Girls Basketball", 
+                 subtitle = "2018-2019 Season")  +
+            scale_x_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) +
+            scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) +
+        geom_vline(aes(xintercept = median(Points_For)), color = "black")  
+            
+points_hist
+            
+```
+
+### Questions to Answer
+
+1. You'll notice that the code scale_x_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC. 
+
+2. You'll notice that the code scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC. 
+
+3. Write the code you would need if you wanted to change the scale on the x-axis so that it went from 30 to 90 and had breaks every 10. 
+
+
+Adding a vertical line that represents the mean can be helpful to guide the reader to the center of the data. 
+This is the code that adds in this line:
+geom_vline(aes(xintercept = mean(Points_For)), color = "black")
+
+
+```{r histogram distribution axes scales}
+
+points_hist <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_histogram(binwidth = 5, color = "white", fill = "red") +
+            labs(x = "Points Scored", y = "Number of Games", 
+                 title = "Distribution of Points Scored Per Game By Rivers Girls Basketball", 
+                 subtitle = "2018-2019 Season")  +
+            scale_x_continuous(limits = c(0, 90),
+                     breaks = seq(0, 90, 5))+
+            scale_y_continuous(limits = c(0, 8),
+                     breaks = seq(0, 8, 1)) +
+        geom_vline(aes(xintercept = mean(Points_For)), color = "black")
+points_hist
+```
+### Question to answer
+
+1. If you wanted to add a vertical line for the median instead of the mean, what is the one thing you would want to change in the code above. **hint you just have to change one word
+
+
+To close out this picture, let's now change the color and outline of the bars. Remeber, use styling for a purpose. Often keeping it simple is best. 
+
+In this case, we will fill the bars with red and make the color of the outline black because it is showing Rivers data. 
+
+The code after theme, cleans up the grid lines and background. You can copy this code into future code you write to create visualizations in the future. 
+
+```{r histogram distribution with style changes}
+points_hist <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_histogram(binwidth = 5, color = "black", fill = "red") +
+            labs(x = "Points Scored", 
+                 y = "Number of Games", 
+                 title = "Distribution of Points Scored Per Game By Rivers Girls Basketball", 
+                 subtitle = "2018-2019 Season") +
+            scale_x_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) +
+            scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) +
+            geom_vline(aes(xintercept = mean(Points_For)), color = "blue")+
+            theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank())
+points_hist
+```
+## Density Curve
+
+There are times when a density curve will more clearly show the distribution of quantitative data. Let's say you are going through your EDA and create a histogram first and realize a density curve would be a better visualization:
+- copy and paste your code
+- change the name
+- change geom_histogram to geom_density
+- delete binwidth =
+- take out the scales code for the y-axis 
+- change the y-axis label to y = "".
+
+```{r Density Curves for distribution}
+points_density <- RGVB_team %>%
+            ggplot(aes(x = Points_For)) +
+            geom_density(color = "white", fill = "red") +
+            labs(x = "Points Scored", y = "", 
+                 title = "Distribution of Points Scored Per Game By Rivers Girls Basketball", 
+                 subtitle = "2018-2019 Season")  +
+            scale_x_continuous(limits = c(0, 90),
+                     breaks = seq(0, 90, 5)) +
+        geom_vline(aes(xintercept = mean(Points_For)), color = "black")  +
+        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank())
+            
+points_density 
+```
+# Comparing distributions
+
+## Histograms 
+
+Histograms stacked on top of one another can be a great way to compare distributions. 
+
+In the histogram below, you will see that I've made one histogram for points scored at home and one for points scored during away games. This was accomplished by adding the line - facet_wrap(~H_V_A, nrow = 2, ncol = 1)
+
+
+```{r}
+
+RGVB_team %>%
+        ggplot(aes(x = Points_For)) +
+        geom_histogram(binwidth = 2) +
+        facet_wrap(~H_V_A, nrow = 2, ncol = 1)
+
+```
+
+### Question to Answer
+
+1. If the categorical variable had 3 groups and I wanted to make a histogram for each group, what would I change in the following code?
+facet_wrap(~H_V_A, nrow = 2, ncol = 1)
+
+2. If you had more data and wanted to make density curves, what would you change in the code above?
+
+
+## Box Plots
+
+Box plots are another great for comparing distributions. Let's use them to compare the points scored during home games vs away games. 
+
+```{r Box Plots to Compare Distributions}
+points_HVA_boxes <- RGVB_team %>%
+            ggplot(aes(x = H_V_A , y = Points_For)) +
+            geom_boxplot() +
+            theme_classic()
+points_HVA_boxes
+```
+
+We now want to make it easier for our reader to make conclusions. Therefore, we want to reorder these boxes from the greatest median to the least. To see this change, look at how code after aes changed. 
+
+I also added in some code to change the style. 
+
+### Action Iteam
+
+To figure out what each new item did you will need to work through the following code by running parts of it at a time. 
+
+1. Start by highlighting from RGVB_team through 0.3) and then run the code by hitting command-option-i on your keyboard. 
+Having done that, what does geom_jitter add to the visualization?
+
+2. Now highlight from RGVB_team through "red")) and then run the code by hitting command-option-i on your keyboard. 
+What does the code scale_color_manual do?
+
+3. Now highlight from RGVB_team through color = "") and then run the code by hitting command-option-i on your keyboard. 
+What does the code labs do?
+
+4. Now highlight from RGVB_team through theme_classic() and then run the code by hitting command-option-i on your keyboard. 
+What does the code ltheme_classic() do?
+
+
+
+```{r Box Plots to Compare Distributions reorder}
+RGVB_team %>%
+        ggplot(aes(x = reorder(H_V_A, Points_For, .desc = TRUE), y = Points_For, color = H_V_A)) +
+        geom_boxplot() +
+        geom_jitter(alpha = 0.3) +
+        scale_color_manual(values = c("black", "red")) +
+        labs(title = "Distribution of Points Scored by Rivers Girls Basketball During Home and Away", 
+             subtitle = "2018-2019 Season", x = "", y = "Points Scored", color = "") +
+        theme_classic()
+
+```
+
+Sometimes box plots are easier to read when they are stacked on top of one another. Use coord_flip to do that. Let's also add in labels while we are here. You will do that using the labs code like you did when making the histograms and density curves. 
+
+```{r Box Plots to Compare Distributions add titles and flip}
+flip_points_HVA_boxes <- RGVB_team %>%
+            ggplot(aes(x = reorder(H_V_A, Points_For, .desc = TRUE), y = Points_For, color = H_V_A)) +
+            geom_boxplot() +
+            geom_jitter(alpha = 0.3) +
+            scale_color_manual(values = c("black", "red")) +
+            labs(title = "Distribution of Points Scored by Rivers Girls Basketball During Home and Away", subtitle = "2018-2019 Season", x = "", y = "Points Scored", color = "") +
+            theme_classic() +
+            coord_flip()
+flip_points_HVA_boxes
+```
+

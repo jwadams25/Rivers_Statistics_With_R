@@ -1,0 +1,177 @@
+---
+title: "Exploring Categorical Variables Intro"
+output: html_document
+---
+#Always start by running the following code to load the libraries. 
+
+```{r libraries, include=FALSE}
+library(tidyverse)
+library(skimr)
+library(janitor)
+library(knitr)
+library(kableExtra)
+library(gridExtra)
+library(openintro)
+library(readr)
+```
+
+# As always, before diving into any questions, make sure you take a look at the dataset. 
+What are the observational units?
+What variables are included?
+What type of variables are they?  
+
+```{r the data}
+urlfile="https://raw.githubusercontent.com/jwadams25/high_school_Rstats/master/Copy%20of%20How%20stressed%20are%20Rivers%20Juniors_%20-%20Sheet1.csv"
+
+stress_juniors <- read.csv(url(urlfile))
+
+head(stress_juniors)
+
+```
+
+# From a Dataset to a Table - One Categorical Variable
+
+When exploring a question that invovles one categorical variable, you'll first want to understand how many observations fall in each category and what proportion of them fall in those categories. Creating a table is a good first step you can take to do just that. 
+
+The code below creates two tables, one for whether or not someone plays a sport and a second for showing whether someone is preparing for the ACTs or SATs. 
+
+You'll notice, I gave each table a name (sport_coun_prop and test_count_prop) and then wrote that name on its own line so when you run the code, the table pops up. 
+
+```{r tables for one categorical variable}
+sport_count_prop <- stress_juniors %>%
+                    count(sport) %>%
+                    mutate(proportion = n / sum(n)) %>%
+                    arrange(desc(proportion))
+sport_count_prop
+
+test_count_prop <- stress_juniors %>%
+                    count(sat_act_prep) %>%
+                    mutate(proportion = n / sum(n)) %>%
+                    arrange(desc(proportion))
+test_count_prop
+```
+
+# From a Dataset to a Visualization - One Categorical Variable
+
+While a table can get you the numbers you are looking for and can be a useful visualization, you may also want to create a bar graph when looking at a categorical variable. The code below allows you to do that. 
+
+### ACTION ITEM
+
+1. What code changed the color of the bars? 
+
+2. This time, I have not given them names. Go into the code, give each a name and then write that name on a separate line as well so when you run the code again, the bar graphs appear. Be sure the names you provide don't have spaces, are short, and help you remember what they represent. 
+
+```{r}
+
+stress_juniors %>%
+  ggplot(aes(x = sport)) +
+  geom_bar(fill = "red") + 
+  labs(x = "Do You Play a Sport", y = "Frequency")
+
+stress_juniors %>%
+  ggplot(aes(x = sat_act_prep)) +
+  geom_bar(fill = "blue") + 
+  labs(x = "Are You Preparing for the SAT and/or ACT", y = "Frequency")
+
+```
+
+
+# Visualizing Relationship Between 2 Categorical Variables 
+
+After looking at each of the previous 2 categorical variables in isolation, the next logical thing to examine is whether there is a relationship between those two variables. Building a segmented bar graphs allows you to explore the relationship. 
+
+```{r}
+stress_juniors %>%
+ggplot(aes(x = sport, fill = sat_act_prep)) +
+  geom_bar(position = "fill") +
+  scale_fill_manual(values = c(COL["yellow","full"], COL["blue","full"])) + 
+  labs(x = "Do you play a sport?", y = "Proportion", fill = "Are you prepping for the SATs or ACTs?")
+
+stress_juniors %>%
+ggplot(aes(x = sport, fill = sat_act_prep)) +
+  geom_bar(position = "dodge") +
+   scale_fill_manual(values = c(COL["yellow","full"], COL["blue","full"])) + 
+  labs(x = "Do you play a sport?", y = "Proportion", fill = "Are you prepping for the SATs or ACTs?")
+
+ 
+```
+### Action Item
+1. What happens if you switch sport and sat_act_prep in the part of the code that says aes(x = sport, fill = sat_act_prep)?
+
+2. What happens if you change position = "fill" to position = "dodge"
+
+3. Which of the two graphs, fill or dodge, would be best in this situation and why?
+
+# Creating a contigency table to expolore relationship between 2 categorial variables in greater detail. 
+
+# From a Dataset to a Table - Two Categorical Variables
+
+###Action Item 
+1. Before going on, make sure the graph above is the segmented bar graph. 
+
+With that graph now shown, you will want to be specific about the size of each section. In order do to that, you need to create a contigency table. 
+
+```{r two way with conditional proportions}
+stress_juniors %>%
+  count(sport, sat_act_prep) %>% 
+  group_by(sport) %>%
+  mutate(proportion = n / sum(n)) %>% 
+  select(-n) %>%
+  pivot_wider(names_from = sport, values_from = proportion)
+```
+
+You may also want to look at the number of people that fall into each category. 
+
+```{r two way with totals}
+
+stress_juniors %>% 
+  count(sport, sat_act_prep) %>% 
+  pivot_wider(names_from = sport, values_from = n)
+
+```
+
+
+
+
+## Bar Plots 
+
+We'll use the bar plot to visualize categorical data. In this first example, we will look at the marginal distribution of result. In other words, the heights of the bars will represent the number of games they won and lost. 
+
+```{r Bar plot basic}
+wl_bars <- RGVB_team %>%
+          ggplot(aes(x = Result)) +
+          geom_bar()
+wl_bars
+```
+
+Because we would most likely want to highlight the largest bar, let's put that one first. To do this, we have to change the order of the bars to go from greatest to least. 
+
+Let's start by making a table using the skills we learned in previous activities to see the number of games for each result. After, we will use that data frame to make our bar plot. 
+
+In this example, I have not made changes to the style. Knowing how style changes were made to previous visualizations, try to make similar changes to this one. If you are confused, start by changing the title and axes labels. 
+
+```{r Bar plot ordering bars}
+wl_count <- RGVB_team %>%
+            group_by(Result) %>%
+            summarize(count = n()) %>%
+            arrange(desc(count))
+wl_count
+wl_bar_order <- wl_count %>%
+          ggplot(aes(x = reorder(Result, -count), y = count)) +
+          geom_bar(stat = 'identity')
+wl_bar_order
+```
+
+## 100% Stacked Bar Graph
+
+When you want to examine conditional distributions, a good option is a 100% stacked bar graph. For this example, we want to look at the proportion of home games and away games were won i.e., You will be able to answer the question, "Did they win a higher percentage of games at home or away?"
+It's important to remember that you use this when studying two categorical variables.
+
+```{r 100 stacked}
+wl_venue <- RGVB_team %>%
+            ggplot(aes(H_V_A, fill = Result)) +
+            geom_bar(position = "fill") +
+            labs(x = "", y = "Proportion", fill = "") +
+        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank())
+wl_venue
+```
