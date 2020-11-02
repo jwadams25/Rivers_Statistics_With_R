@@ -8,3 +8,9 @@ This repo will house tutorials, activities, and data used in the Rivers School's
 3 - Projects: This will house any documents needed for your to get started on a project. 
 
 4 - Data: You guess it. This will house any data needed for this course. 
+
+Sources:
+Online version of Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Johanna Hardin - https://openintro-ims.netlify.app/index.html#license
+Data Science in a Box by Mine Çetinkaya-Rundel - https://datasciencebox.org/index.html
+R for Data Science by Garrett Grolemund and Hadley Wickham - https://r4ds.had.co.nz/
+Data Science from HarvardX - https://www.edx.org/professional-certificate/harvardx-data-science
