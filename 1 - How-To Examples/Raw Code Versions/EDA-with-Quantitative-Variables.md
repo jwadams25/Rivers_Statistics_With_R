@@ -260,7 +260,8 @@ points_hist
     ## Warning: Removed 2 rows containing missing values (geom_bar).
 
 ![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20with%20style%20changes-1.png)<!-- -->
-\#\# Density Curve
+
+## Density Curve
 
 There are times when a density curve will more clearly show the
 distribution of quantitative data. Let’s say you are going through your
