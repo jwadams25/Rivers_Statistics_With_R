@@ -117,7 +117,7 @@ points_hist
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20of%20points%20scored%20by%20Rivers-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20of%20points%20scored%20by%20Rivers-1.png)<!-- -->
 
 Now let’s add some labels to your axes and give the histogram a title.
 To start, I copied and pasted the code from above and then entered the
@@ -142,7 +142,7 @@ points_hist
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20of%20points%20for%20with%20labels-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20of%20points%20for%20with%20labels-1.png)<!-- -->
 
 You’ll see that a message popped up that says in part “Pick a better
 value with ‘binwidth’” Let’s make that change by adding in bindwith = 5
@@ -157,13 +157,13 @@ points_hist <- RGVB_team %>%
 points_hist
 ```
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20with%20new%20bins-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20with%20new%20bins-1.png)<!-- -->
 
-### Question to Answer
+### Questions to Answer
 
-  - Why does changing the binwidth change the look of the picture?
+#### 1\. Why does changing the binwidth change the look of the picture?
 
-  - Why would you want to change the binwidth?
+#### 2\. Why would you want to change the binwidth?
 
 To finish let’s set the scales of the x and y axes so that they better
 match the binwidth.
@@ -188,20 +188,15 @@ points_hist
 
     ## Warning: Removed 2 rows containing missing values (geom_bar).
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20axes%20scales-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20axes%20scales-1.png)<!-- -->
 
 ### Questions to Answer
 
-1.  You’ll notice that the code scale\_x\_continuous(limits = c(0, 90),
-    breaks = seq(0, 90, 5)) was added. Looking at the histogram that now
-    appears above, what do you think that code does? BE SPECIFIC.
+#### 1\. You’ll notice that the code scale\_x\_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC.
 
-2.  You’ll notice that the code scale\_y\_continuous(limits = c(0, 8),
-    breaks = seq(0, 8, 1)) was added. Looking at the histogram that now
-    appears above, what do you think that code does? BE SPECIFIC.
+#### 2\. You’ll notice that the code scale\_y\_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC.
 
-3.  Write the code you would need if you wanted to change the scale on
-    the x-axis so that it went from 30 to 90 and had breaks every 10.
+#### 3\. Write the code you would need if you wanted to change the scale on the x-axis so that it went from 30 to 90 and had breaks every 10.
 
 Adding a vertical line that represents the mean can be helpful to guide
 the reader to the center of the data. This is the code that adds in this
@@ -224,12 +219,10 @@ points_hist
 
     ## Warning: Removed 2 rows containing missing values (geom_bar).
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20vertical%20line%20for%20mean-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20vertical%20line%20for%20mean-1.png)<!-- -->
 \#\#\# Question to answer
 
-1.  If you wanted to add a vertical line for the median instead of the
-    mean, what is the one thing you would want to change in the code
-    above. \*\*hint you just have to change one word
+#### 1\. If you wanted to add a vertical line for the median instead of the mean, what is the one thing you would want to change in the code above. \*\*hint you just have to change one word
 
 To close out this picture, let’s now change the color and outline of the
 bars. Remeber, use styling for a purpose. Often keeping it simple is
@@ -259,7 +252,7 @@ points_hist
 
     ## Warning: Removed 2 rows containing missing values (geom_bar).
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20with%20style%20changes-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/histogram%20distribution%20with%20style%20changes-1.png)<!-- -->
 
 ## Density Curve
 
@@ -285,7 +278,7 @@ points_density <- RGVB_team %>%
 points_density 
 ```
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/Density%20Curves%20for%20distribution-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/Density%20Curves%20for%20distribution-1.png)<!-- -->
 \# Comparing distributions
 
 ## Histograms
@@ -305,16 +298,15 @@ RGVB_team %>%
         facet_wrap(~H_V_A, nrow = 2, ncol = 1)
 ```
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ### Question to Answer
 
-1.  If the categorical variable had 3 groups and I wanted to make a
-    histogram for each group, what would I change in the following code?
-    facet\_wrap(\~H\_V\_A, nrow = 2, ncol = 1)
+#### 1\. If the categorical variable had 3 groups and I wanted to make a histogram for each group, what would I change in the following code?
 
-2.  If you had more data and wanted to make density curves, what would
-    you change in the code above?
+facet\_wrap(\~H\_V\_A, nrow = 2, ncol = 1)
+
+#### 2\. If you had more data and wanted to make density curves, what would you change in the code above?
 
 ## Box Plots
 
@@ -329,7 +321,7 @@ points_HVA_boxes <- RGVB_team %>%
 points_HVA_boxes
 ```
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/Box%20Plots%20to%20Compare%20Distributions-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/Box%20Plots%20to%20Compare%20Distributions-1.png)<!-- -->
 
 We now want to make it easier for our reader to make conclusions.
 Therefore, we want to reorder these boxes from the greatest median to
@@ -339,8 +331,7 @@ I also added in some code to change the style.
 
 ### Action Iteam
 
-To figure out what each new item did you will need to work through the
-following code by running parts of it at a time.
+#### To figure out what each new item did you will need to work through the following code by running parts of it at a time.
 
 1.  Start by highlighting from RGVB\_team through 0.3) and then run the
     code by hitting command-option-i on your keyboard. Having done that,
@@ -371,7 +362,7 @@ RGVB_team %>%
         theme_classic()
 ```
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/Box%20Plots%20to%20Compare%20Distributions%20reorder-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/Box%20Plots%20to%20Compare%20Distributions%20reorder-1.png)<!-- -->
 
 Sometimes box plots are easier to read when they are stacked on top of
 one another. Use coord\_flip to do that. Let’s also add in labels while
@@ -384,10 +375,14 @@ flip_points_HVA_boxes <- RGVB_team %>%
             geom_boxplot() +
             geom_jitter(alpha = 0.3) +
             scale_color_manual(values = c("black", "red")) +
-            labs(title = "Distribution of Points Scored by Rivers Girls Basketball During Home and Away", subtitle = "2018-2019 Season", x = "", y = "Points Scored", color = "") +
+            labs(title = "Distribution of Points Scored by Rivers Girls Basketball During Home and Away", 
+                 subtitle = "2018-2019 Season", 
+                 x = "", 
+                 y = "Points Scored", 
+                 color = "") +
             theme_classic() +
             coord_flip()
 flip_points_HVA_boxes
 ```
 
-![](EDA-with-Quantitative-Variables_files/figure-gfm/Box%20Plots%20to%20Compare%20Distributions%20add%20titles%20and%20flip-1.png)<!-- -->
+![](2---EDA-with-Quantitative-Variables_files/figure-gfm/Box%20Plots%20to%20Compare%20Distributions%20add%20titles%20and%20flip-1.png)<!-- -->
