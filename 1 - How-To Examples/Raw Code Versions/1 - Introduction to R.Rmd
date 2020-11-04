@@ -4,13 +4,17 @@ author: "Mr. Adams"
 output: github_document
 ---
 
-```{r, echo=FALSE}
-library(tidyverse)
-```
+
 
 # Welcome to R
 
 Congratulations! You are taking the first step toward becoming a data scientist. R is a powerful statistical programming language, and this document contains tips on the basics! 
+
+## Get in the habit of always running your libraries first!
+
+```{r}
+library(tidyverse)
+```
 
 ## R can be used as a calculator
 
@@ -20,6 +24,13 @@ Here are some examples!
 ```{r calculator}
 2+3
 (4^2/2)
+```
+
+#### Questions to Answer
+##### 1. In the pace below, type in an equation an run it. 
+
+```{r your calculations}
+
 ```
 
 
@@ -38,6 +49,16 @@ c <- a+b
 a 
 b
 c
+```
+
+#### Questions to Answer
+##### 1. Make and name three new calculations. 
+
+##### 2. Multiply them all of them togehers. 
+
+
+```{r naming your calculations}
+
 ```
 
 ### Naming Vectors 
@@ -61,6 +82,16 @@ character_vector <- c("a", "b", "c", "d")
 character_vector
 ```
 
+#### Questions to Answer
+
+##### 1. Create and name a numeric vector.
+
+##### 2. Create a character vector. 
+
+```{r your vectors}
+
+```
+
 ### Create and Name a data frame
 
 A data frame will contain rows and columns. The columns will represent the variables. The rows represent the observations. 
@@ -71,6 +102,14 @@ Let's make a data frame with 2 variables, age and favorite_color, and 5 observat
 age_col_df <- data.frame(age = c(16, 17, 18, 18, 19), 
                          favorite_color = c("red", "blue", "red", "green", "blue"))
 age_col_df
+```
+
+#### Question to Answer
+
+##### 1. Create a data frame using the two vectors you created. 
+
+```{r your new data frame}
+
 ```
 
 
@@ -88,3 +127,14 @@ histogram_example <- example_data %>%
                   geom_histogram(binwidth = 1, fill = "navy blue", color = "red")
 histogram_example
 ```
+
+#### Questions to Answer
+
+##### 1. What is the name of the data frame?
+
+##### 2. What is the bin width?
+
+##### 3. How many variables were used to create this vizualization?
+
+##### 4. What type of variable was used to create this vizualization?
+
