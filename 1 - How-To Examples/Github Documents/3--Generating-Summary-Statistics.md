@@ -55,7 +55,7 @@ tidyverse package you loaded above.
 Let’s say you just made the following histogram showing the distribution
 of price.
 
-![](Generating-Summary-Statistics_files/figure-gfm/price%20density%20curve,%20-1.png)<!-- -->
+![](3--Generating-Summary-Statistics_files/figure-gfm/price%20density%20curve,%20-1.png)<!-- -->
 
 To properly explain what this shows, you need to include summary
 statistics. With nearly 54,000 rows, you won’t be doing this by hand\!
@@ -103,7 +103,7 @@ diamonds %>%
 
     ## Picking joint bandwidth of 535
 
-![](Generating-Summary-Statistics_files/figure-gfm/price%20color%20ridge%20plot-1.png)<!-- -->
+![](3--Generating-Summary-Statistics_files/figure-gfm/price%20color%20ridge%20plot-1.png)<!-- -->
 
 Now we need to get the summary statistics for each of these. We won’t
 necessarily use all of them, but we need to get them so we can decide
