@@ -46,11 +46,12 @@ diamonds %>%
 To properly explain what this shows, you need to include summary statistics. With nearly 54,000 rows, you won't be doing this by hand! The code below will generate the summary statistics - mean, median, standard deviation, and IQR for the price variable. 
 
 ```{r summarize one variable}
+
 price_summary_stats <- diamonds %>%
-                    summarize(avg = mean(price), 
-                              med = median(price), 
-                              standard_dev = sd(price), 
-                              iqr = IQR(price))
+                          summarize(avg = mean(price), 
+                                    med = median(price), 
+                                    standard_dev = sd(price), 
+                                    iqr = IQR(price))
 price_summary_stats
 
 ```
