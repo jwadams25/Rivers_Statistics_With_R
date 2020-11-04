@@ -64,10 +64,10 @@ standard deviation, and IQR for the price variable.
 
 ``` r
 price_summary_stats <- diamonds %>%
-                    summarize(avg = mean(price), 
-                              med = median(price), 
-                              standard_dev = sd(price), 
-                              iqr = IQR(price))
+                        summarize(avg = mean(price), 
+                                  med = median(price), 
+                                  standard_dev = sd(price), 
+                                  iqr = IQR(price))
 price_summary_stats
 ```
 
@@ -107,14 +107,16 @@ diamonds %>%
 
 Now we need to get the summary statistics for each of these. We won’t
 necessarily use all of them, but we need to get them so we can decide
-what we will reference. To generate these statsitics, we will group the
+what we will reference. To generate these statistics, we will group the
 diamonds by color and then take the summary statistics for price.
 
 ``` r
 price_color_ss <- diamonds %>%
-    group_by(color) %>%
-    summarize(avg = mean(price), med = median(price), standard_dev = sd(price), 
-                    iqr = IQR(price))
+                  group_by(color) %>%
+                  summarize(avg = mean(price), 
+                            med = median(price), 
+                            standard_dev = sd(price), 
+                            iqr = IQR(price))
 ```
 
     ## `summarise()` ungrouping output (override with `.groups` argument)

@@ -37,7 +37,9 @@ Let's say you just made the following histogram showing the distribution of pric
 diamonds %>%
   ggplot(aes(x = price)) +
   geom_histogram(binwidth = 500, fill = "blue", color = "white") +
-  labs(x = "Price of the Diamond", y = "Number of Diamonds", title = "The Distribution of Diamond Prices") +
+  labs(title = "The Distribution of Diamond Prices", 
+        x = "Price of the Diamond", 
+        y = "Number of Diamonds") +
   theme_minimal()
 
 ```
@@ -48,10 +50,10 @@ To properly explain what this shows, you need to include summary statistics. Wit
 ```{r summarize one variable}
 
 price_summary_stats <- diamonds %>%
-                          summarize(avg = mean(price), 
-                                    med = median(price), 
-                                    standard_dev = sd(price), 
-                                    iqr = IQR(price))
+                        summarize(avg = mean(price), 
+                                  med = median(price), 
+                                  standard_dev = sd(price), 
+                                  iqr = IQR(price))
 price_summary_stats
 
 ```
@@ -87,13 +89,15 @@ diamonds %>%
   theme_minimal()
 ```
 
-Now we need to get the summary statistics for each of these. We won't necessarily use all of them, but we need to get them so we can decide what we will reference. To generate these statsitics, we will group the diamonds by color and then take the summary statistics for price.
+Now we need to get the summary statistics for each of these. We won't necessarily use all of them, but we need to get them so we can decide what we will reference. To generate these statistics, we will group the diamonds by color and then take the summary statistics for price.
 
 ```{r group by and summarize color and price}
 price_color_ss <- diamonds %>%
-    group_by(color) %>%
-    summarize(avg = mean(price), med = median(price), standard_dev = sd(price), 
-                    iqr = IQR(price))
+                  group_by(color) %>%
+                  summarize(avg = mean(price), 
+                            med = median(price), 
+                            standard_dev = sd(price), 
+                            iqr = IQR(price))
 price_color_ss
 ```
 
