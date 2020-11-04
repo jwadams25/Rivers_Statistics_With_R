@@ -75,12 +75,11 @@ points_hist <- RGVB_team %>%
 points_hist
 ```
 
-### Question to Answer
+### Questions to Answer
 
-- Why does changing the binwidth change the look of the picture? 
+#### 1. Why does changing the binwidth change the look of the picture? 
 
-
-- Why would you want to change the binwidth?
+#### 2. Why would you want to change the binwidth?
 
 
 To finish let's set the scales of the x and y axes so that they better match the binwidth. 
@@ -105,12 +104,11 @@ points_hist
 
 ### Questions to Answer
 
-1. You'll notice that the code scale_x_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC. 
+#### 1. You'll notice that the code scale_x_continuous(limits = c(0, 90), breaks = seq(0, 90, 5)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC. 
 
-2. You'll notice that the code scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC. 
+#### 2. You'll notice that the code scale_y_continuous(limits = c(0, 8), breaks = seq(0, 8, 1)) was added. Looking at the histogram that now appears above, what do you think that code does? BE SPECIFIC. 
 
-3. Write the code you would need if you wanted to change the scale on the x-axis so that it went from 30 to 90 and had breaks every 10. 
-
+#### 3. Write the code you would need if you wanted to change the scale on the x-axis so that it went from 30 to 90 and had breaks every 10. 
 
 Adding a vertical line that represents the mean can be helpful to guide the reader to the center of the data. 
 This is the code that adds in this line:
@@ -134,7 +132,7 @@ points_hist
 ```
 ### Question to answer
 
-1. If you wanted to add a vertical line for the median instead of the mean, what is the one thing you would want to change in the code above. **hint you just have to change one word
+#### 1. If you wanted to add a vertical line for the median instead of the mean, what is the one thing you would want to change in the code above. **hint you just have to change one word
 
 
 To close out this picture, let's now change the color and outline of the bars. Remeber, use styling for a purpose. Often keeping it simple is best. 
@@ -202,10 +200,10 @@ RGVB_team %>%
 
 ### Question to Answer
 
-1. If the categorical variable had 3 groups and I wanted to make a histogram for each group, what would I change in the following code?
+#### 1. If the categorical variable had 3 groups and I wanted to make a histogram for each group, what would I change in the following code?
 facet_wrap(~H_V_A, nrow = 2, ncol = 1)
 
-2. If you had more data and wanted to make density curves, what would you change in the code above?
+#### 2. If you had more data and wanted to make density curves, what would you change in the code above?
 
 
 ## Box Plots
@@ -226,7 +224,7 @@ I also added in some code to change the style.
 
 ### Action Iteam
 
-To figure out what each new item did you will need to work through the following code by running parts of it at a time. 
+#### To figure out what each new item did you will need to work through the following code by running parts of it at a time. 
 
 1. Start by highlighting from RGVB_team through 0.3) and then run the code by hitting command-option-i on your keyboard. 
 Having done that, what does geom_jitter add to the visualization?
@@ -262,7 +260,11 @@ flip_points_HVA_boxes <- RGVB_team %>%
             geom_boxplot() +
             geom_jitter(alpha = 0.3) +
             scale_color_manual(values = c("black", "red")) +
-            labs(title = "Distribution of Points Scored by Rivers Girls Basketball During Home and Away", subtitle = "2018-2019 Season", x = "", y = "Points Scored", color = "") +
+            labs(title = "Distribution of Points Scored by Rivers Girls Basketball During Home and Away", 
+                 subtitle = "2018-2019 Season", 
+                 x = "", 
+                 y = "Points Scored", 
+                 color = "") +
             theme_classic() +
             coord_flip()
 flip_points_HVA_boxes
