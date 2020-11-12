@@ -33,7 +33,7 @@ Survey Questions Asked
 ```
 
 
-```{r data, }
+```{r data, results='hide'}
 urlfile="https://raw.githubusercontent.com/jwadams25/Rivers_Statistics_With_R/main/2%20-%20Activities/Extracurricular_Stress_Poll_Project.csv"
 extra <- read.csv(url(urlfile))
 ```
