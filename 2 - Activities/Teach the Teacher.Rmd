@@ -26,8 +26,15 @@ Survey Questions Asked
 5. On a scale of 1-10, how much stress do your extracurricular activities add to your life?									
 6. Do your activities themselves cause you stress (ex: performance anxiety, making a team, etc) 
 
+### First Move 
 
-```{r setup, include=FALSE}
+```{r}
 
+```
+
+
+```{r data, }
+urlfile="https://raw.githubusercontent.com/jwadams25/Rivers_Statistics_With_R/main/2%20-%20Activities/Extracurricular_Stress_Poll_Project.csv"
+extra <- read.csv(url(urlfile))
 ```
 
