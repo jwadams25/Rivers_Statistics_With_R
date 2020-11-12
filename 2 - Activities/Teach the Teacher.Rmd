@@ -1,0 +1,33 @@
+---
+title: "Teach the Teacher"
+author: "Mr. Adams"
+date: "11/12/2020"
+output: html_document
+---
+# Teach the Teacher Series
+
+This R Markdown file will consist of the work done during activites in class where I present a question or challenge to the class and they have to tell me what to do. RStudio will be projected onto the board and the class will drive the 
+
+## Episode 1 - Lets actually work with the data from the last test
+
+On the first test of the year, students were given the following dataset. The stduents were then asked:
+1. What is a
+
+
+About the Data written by students who collected the data:
+
+We conducted this poll to answer the following question: How do extracurricular activities affect the stress levels of Rivers students? We conducted our poll by first taking a stratified random sample of the Rivers upper school students. We created four stratas: freshmen, sophomores, juniors, and seniors. We then created a 6-question google form survey that would give us information about how the extracurricular activities might be inducing stress in the students. We randomly selected 15 students from each strata and sent the selected students the survey over email. Our sample size was 60 Rivers upper school students and our non response rate was 26.7%. 
+
+Survey Questions Asked 
+1. Are you involved in any extracurriculars this fall? If yes, check all that apply (inside and outside of Rivers) If none, check that box and answer no other questions.							
+2. How many hours do you spend per week at/doing that activity? (ONLY TYPE THE NUMBER! Ex: 3. NOT 3 hours) 			
+3. Do your extracurricular(s) ever interfere with getting homework in on time/study preparation for a test? 		
+4. Do your extracurricular(s) consistently interfere with getting a good amount of sleep? 									
+5. On a scale of 1-10, how much stress do your extracurricular activities add to your life?									
+6. Do your activities themselves cause you stress (ex: performance anxiety, making a team, etc) 
+
+
+```{r setup, include=FALSE}
+
+```
+
