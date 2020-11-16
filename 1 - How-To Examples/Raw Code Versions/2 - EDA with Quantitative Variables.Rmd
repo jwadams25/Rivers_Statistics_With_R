@@ -18,6 +18,7 @@ This dataset comes form the Rivers girls basketball team during the 2018-2019 se
 ```{r get the data}
 urlfile="https://raw.githubusercontent.com/jwadams25/high_school_Rstats/master/girls_bball_2018.csv"
 RGVB_team <- read.csv(url(urlfile))
+
 ```
 
 ## Look at the data
@@ -226,16 +227,16 @@ I also added in some code to change the style.
 
 #### To figure out what each new item did you will need to work through the following code by running parts of it at a time. 
 
-1. Start by highlighting from RGVB_team through 0.3) and then run the code by hitting command-option-i on your keyboard. 
+1. Start by highlighting from RGVB_team through 0.3) and then run the code by hitting command-enter on your keyboard. 
 Having done that, what does geom_jitter add to the visualization?
 
-2. Now highlight from RGVB_team through "red")) and then run the code by hitting command-option-i on your keyboard. 
+2. Now highlight from RGVB_team through "red")) and then run the code by hitting command-enter on your keyboard. 
 What does the code scale_color_manual do?
 
-3. Now highlight from RGVB_team through color = "") and then run the code by hitting command-option-i on your keyboard. 
+3. Now highlight from RGVB_team through color = "") and then run the code by hitting command-enter on your keyboard. 
 What does the code labs do?
 
-4. Now highlight from RGVB_team through theme_classic() and then run the code by hitting command-option-i on your keyboard. 
+4. Now highlight from RGVB_team through theme_classic() and then run the code by hitting command-enter on your keyboard. 
 What does the code ltheme_classic() do?
 
 
@@ -269,4 +270,5 @@ flip_points_HVA_boxes <- RGVB_team %>%
             coord_flip()
 flip_points_HVA_boxes
 ```
+
 
