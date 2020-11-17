@@ -18,11 +18,9 @@ will use for your analysis.
 For this class, we will use several different packages, but we will
 start with the following package.
 
-  - tidyverse: This contains, among other things, the packages ggplot,
-    which allows you to make visualizations and dplyr, which will enable
-    you to wrangle your data frame.
-
-<!-- end list -->
+tidyverse: This contains, among other things, the packages ggplot, which
+allows you to make visualizations and dplyr, which will enable you to
+wrangle your data frame.
 
 ``` r
 library(tidyverse)
@@ -41,9 +39,9 @@ library(tidyverse)
 
 ## Viewing Your Data
 
-Before you begin analyzing your data, you need to familiarize yourself
-with the data frame. Ask yourself: How many variables do I have? What
-type of variables do I have? What are my observational units?
+\#\#\#Before you begin analyzing your data, you need to familiarize
+yourself with the data frame. Ask yourself: How many variables do I
+have? What type of variables do I have? What are my observational units?
 
 For this demo, we will use a data frame called “diamonds” that comes
 with the Tidyverse package.
@@ -131,6 +129,10 @@ head(fourcs_price)
     ## 5 0.31  Good      J     SI2       335
     ## 6 0.24  Very Good J     VVS2      336
 
+### Questions to Answer/Action Item
+
+#### 1\. Using the diamonds dataset, create a data frame with just 3 variables.
+
 ## Filter
 
 Often you want to focus on a certain subset of your dataset. For
@@ -166,6 +168,12 @@ You can also filter for a range of numbers. The filter below makes a
 data frame, named below\_fiveK, that includes only diamonds less than
 $5,000
 
+### Question to Answer/Action Item
+
+#### 1\. Filter the diamonds dataset in any way that you want.
+
+#### 2\. Describe how you filtered the data.
+
 ## Mutate
 
 You may also want to create new variables. Using the diamonds dataset,
@@ -195,6 +203,10 @@ diamonds_with_ppc
     ## 10 0.23  Very Good H     VS1      59.4    61   338  4     4.05  2.39 1470.
     ## # … with 53,930 more rows
 
+### Question to Answer/Action Item
+
+#### 1\. Use the mutate function to create another new variable in the the diamonds dataset.
+
 ## Group\_by
 
 Let’s say you want to compare the prices of different color diamonds. In
@@ -205,7 +217,8 @@ put all the observations into groups of colors.
 ``` r
 color_groups_sum_stats <- diamonds %>%
                 group_by(color) %>%
-                summarize(avg = mean(price), standard_deviation = sd(price))
+                summarize(avg = mean(price), 
+                          standard_deviation = sd(price))
 ```
 
     ## `summarise()` ungrouping output (override with `.groups` argument)
@@ -224,3 +237,9 @@ color_groups_sum_stats
     ## 5 H     4487.              4216.
     ## 6 I     5092.              4722.
     ## 7 J     5324.              4438.
+
+### Question to Answer/Action Item
+
+#### 1\. Use the group\_by function to find the summary statistics for price across a different categorical variable.
+
+#### 2\. Describe key insights about diamonds based on those summary stats.
