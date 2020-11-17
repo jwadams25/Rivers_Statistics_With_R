@@ -88,7 +88,7 @@ stress_juniors %>%
   labs(x = "Do You Play a Sport", y = "Frequency")
 ```
 
-![](EDA-with-Categorical-Variables_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](4---EDA-with-Categorical-Variables_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ``` r
 stress_juniors %>%
@@ -97,7 +97,7 @@ stress_juniors %>%
   labs(x = "Are You Preparing for the SAT and/or ACT", y = "Frequency")
 ```
 
-![](EDA-with-Categorical-Variables_files/figure-gfm/unnamed-chunk-1-2.png)<!-- -->
+![](4---EDA-with-Categorical-Variables_files/figure-gfm/unnamed-chunk-1-2.png)<!-- -->
 
 ### Questions to Answer
 
@@ -122,7 +122,7 @@ ggplot(aes(x = sport, fill = sat_act_prep)) +
   labs(x = "Do you play a sport?", y = "Proportion", fill = "Are you prepping for the SATs or ACTs?")
 ```
 
-![](EDA-with-Categorical-Variables_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](4---EDA-with-Categorical-Variables_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 ### Questions to Answer
 
@@ -244,7 +244,7 @@ political_bar_order <- immigration %>%
 political_bar_order 
 ```
 
-![](EDA-with-Categorical-Variables_files/figure-gfm/Bar%20plot%20ordering%20bars-1.png)<!-- -->
+![](4---EDA-with-Categorical-Variables_files/figure-gfm/Bar%20plot%20ordering%20bars-1.png)<!-- -->
 \#\#\# Questions to Answer
 
 ##### 1\. Reference the code above to make a table and bar graph for the response variable. Be sure the table lists proportions from greatest to least. For the bar graph, be sure each the bars are orered from least go greatest and all of other styling added to the graph above is included. \*Hint: Be sure you add colors\!
