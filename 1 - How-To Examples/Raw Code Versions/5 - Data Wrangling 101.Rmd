@@ -12,7 +12,7 @@ There are specific packages others have built that allow you to do complex tasks
 
 For this class, we will use several different packages, but we will start with the following package. 
 
-- tidyverse: This contains, among other things, the packages ggplot, which allows you to make visualizations and dplyr, which will enable you to wrangle your data frame. 
+tidyverse: This contains, among other things, the packages ggplot, which allows you to make visualizations and dplyr, which will enable you to wrangle your data frame. 
 
 ```{r install package and load library}
 library(tidyverse)
@@ -20,7 +20,7 @@ library(tidyverse)
 
 ## Viewing Your Data
 
-Before you begin analyzing your data, you need to familiarize yourself with the data frame. 
+###Before you begin analyzing your data, you need to familiarize yourself with the data frame. 
 Ask yourself:
 How many variables do I have?
 What type of variables do I have?
@@ -46,6 +46,16 @@ fourcs_price <- diamonds %>%
 head(fourcs_price)
 ```
 
+
+### Questions to Answer/Action Item 
+
+#### 1. Using the diamonds dataset, create a data frame with just 3 variables. 
+
+
+```{r using select for the first time}
+
+```
+
 ## Filter
 
 Often you want to focus on a certain subset of your dataset. For example, when analyzing the diamonds dataset, you may only want to study a particular cut of diamond. The Filter function allows us to take out just the subset of observations that we want. Here is an example of how to do just that. This code can be read in plain English "Hey computer, give me information on only the diamonds that have an Ideal cut. While you are at it, name the new data frame, 'Ideals.'"
@@ -56,6 +66,7 @@ ideals <- diamonds %>%
 ideals
 ```
 
+
 You can also filter for a range of numbers. The filter below makes a data frame, named below_fiveK, that includes only diamonds less than $5,000
 
 
@@ -64,6 +75,16 @@ below_fiveK <- diamonds %>%
          filter(price < 5000)
 below_fiveK
 ```
+
+### Question to Answer/Action Item
+
+#### 1. Filter the diamonds dataset in any way that you want. 
+
+```{r your first filter}
+
+```
+
+#### 2. Describe how you filtered the data.
 
 ## Mutate
 
@@ -75,6 +96,17 @@ diamonds_with_ppc <- diamonds %>%
 diamonds_with_ppc
 ```
 
+
+
+### Question to Answer/Action Item
+
+#### 1. Use the mutate function to create another new variable in the the diamonds dataset.
+
+```{r your first mutation}
+
+```
+
+
 ## Group_by 
 
 Let's say you want to compare the prices of different color diamonds. In doing so, you want to calculate the average price and standard deviation of the price variable for each respective color. Therefore, you need to put all the observations into groups of colors. 
@@ -82,9 +114,21 @@ Let's say you want to compare the prices of different color diamonds. In doing s
 ```{r group by}
 color_groups_sum_stats <- diamonds %>%
                 group_by(color) %>%
-                summarize(avg = mean(price), standard_deviation = sd(price))
+                summarize(avg = mean(price), 
+                          standard_deviation = sd(price))
 color_groups_sum_stats
 ```
 
+
+
+### Question to Answer/Action Item
+
+#### 1. Use the group_by function to find the summary statistics for price across a different categorical variable.
+
+```{r your first filter}
+
+```
+
+#### 2. Describe key insights about diamonds based on those summary stats. 
 
 
