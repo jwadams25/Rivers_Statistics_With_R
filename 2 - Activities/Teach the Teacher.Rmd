@@ -26,15 +26,49 @@ Survey Questions Asked
 5. On a scale of 1-10, how much stress do your extracurricular activities add to your life?									
 6. Do your activities themselves cause you stress (ex: performance anxiety, making a team, etc) 
 
-### First Move 
-
-```{r}
-
-```
-
-
+### Here is the Data
 ```{r data, results='hide'}
 urlfile="https://raw.githubusercontent.com/jwadams25/Rivers_Statistics_With_R/main/2%20-%20Activities/Extracurricular_Stress_Poll_Project.csv"
 extra <- read.csv(url(urlfile))
+extra
+
 ```
+### First Move H Block
+
+```{r histogram distribution axes scales}
+
+hours_hist <- extra %>%
+                ggplot(aes(x = weekly_hours)) +
+                geom_histogram(binwidth = 2, fill = "navy blue", color = "red") +
+                labs(x = "Hours Per Week", 
+                     y = "Number of Students", 
+                     title = "Weekly Hours Spent at Extracurricular Activities by Rivers Upper School Students") +
+                scale_x_continuous(limits = c(0,20), breaks = seq(0,20,1)) +
+                scale_y_continuous(limits = c(0,10), breaks = seq(0,10,2)) +
+                geom_vline(aes(xintercept = median(weekly_hours)), color = "green") +
+                geom_vline(aes(xintercept = mean(weekly_hours)), color = "black")
+hours_hist
+
+
+
+
+```
+
+### First Move C Block
+
+
+We will build a histogram for weekly hours
+
+```{r}
+awesomehistogram <- extra %>%
+  ggplot(aes(x = weekly_hours)) +
+  geom_histogram(binwidth = 1, color = "black", fill = "#ba0c24") +
+  geom_vline(aes(xintercept = median(weekly_hours), color = "yellow"))
+
+awesomehistogram
+  
+```
+
+The above was completed in ten minutes. Excellent participation across the entire class. Overall good start. Tons of progress made by the group. We're looking forward to the next 
+
 
