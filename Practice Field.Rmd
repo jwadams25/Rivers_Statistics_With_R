@@ -1,0 +1,37 @@
+---
+title: "Extra Help Markdown"
+author: "Mr. Adams"
+date: "11/17/2020"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(skimr)
+library(ggridges)
+```
+
+## Used During class on 11/17 
+
+```{r}
+diamonds %>%
+  filter(cut == "Premium") %>%
+  ggplot(aes(x = carat, y = carat, color = color)) +
+  geom_point(alpha = 0.4)
+
+?diamonds
+
+price_summary_stats <- diamonds %>%
+                        summarize(avg = mean(carat), 
+                                  med = median(carat), 
+                                  standard_dev = sd(carat), 
+                                  iqr = IQR(carat))
+price_summary_stats
+
+?mtcars
+head(mtcars)
+
+glimpse(mtcars)
+
+```
+
