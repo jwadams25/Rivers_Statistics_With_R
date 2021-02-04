@@ -1,5 +1,5 @@
 ---
-title: "Key - MLB Salaries and CLT Exploration"
+title: "Key - CLT Exploration with MLB Salaries"
 author: "Mr. Adams"
 output: github_document
 ---
@@ -147,7 +147,7 @@ sampling_means_10salaries <- replicate(200,{
           replace = FALSE)
   mean(salary_choice10)})
 
-s_mean_10_x_200 <- data_frame(sampling_means_5salaries)
+s_mean_10_x_200 <- data_frame(sampling_means_10salaries)
 s_mean_10_x_200
 
 ```

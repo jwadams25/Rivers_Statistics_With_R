@@ -1,4 +1,4 @@
-Key - MLB Salaries and CLT Exploration
+Key - CLT Exploration with MLB Salaries
 ================
 Mr. Adams
 
@@ -112,13 +112,13 @@ sample_of_salaries <-  sample(mlb$salary, 5, replace = FALSE)
 sample_of_salaries
 ```
 
-    ## [1] 0.56 0.58 0.56 0.56 3.13
+    ## [1]  3.52  3.70  0.56 18.33  4.83
 
 ``` r
 mean(sample_of_salaries)
 ```
 
-    ## [1] 1.078
+    ## [1] 6.188
 
 #### Question 2:
 
@@ -262,23 +262,23 @@ sampling_means_10salaries <- replicate(200,{
           replace = FALSE)
   mean(salary_choice10)})
 
-s_mean_10_x_200 <- data_frame(sampling_means_5salaries)
+s_mean_10_x_200 <- data_frame(sampling_means_10salaries)
 s_mean_10_x_200
 ```
 
     ## # A tibble: 200 x 1
-    ##    sampling_means_5salaries
-    ##                       <dbl>
-    ##  1                    10.7 
-    ##  2                     9.94
-    ##  3                     3.15
-    ##  4                     7.93
-    ##  5                     3.76
-    ##  6                     6.76
-    ##  7                     1.91
-    ##  8                     1.73
-    ##  9                     1.97
-    ## 10                     1.16
+    ##    sampling_means_10salaries
+    ##                        <dbl>
+    ##  1                      9.85
+    ##  2                      3.48
+    ##  3                      6.2 
+    ##  4                      6.99
+    ##  5                      4.48
+    ##  6                      3.32
+    ##  7                      8.14
+    ##  8                      3.10
+    ##  9                      2.21
+    ## 10                      7.68
     ## # … with 190 more rows
 
 ##### Let’s visualize and summarize the distribution of means generated in this simulation
