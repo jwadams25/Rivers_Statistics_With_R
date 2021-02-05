@@ -112,13 +112,13 @@ sample_of_salaries <-  sample(mlb$salary, 5, replace = FALSE)
 sample_of_salaries
 ```
 
-    ## [1]  3.52  3.70  0.56 18.33  4.83
+    ## [1]  9.00 10.67  0.56  1.00 13.00
 
 ``` r
 mean(sample_of_salaries)
 ```
 
-    ## [1] 6.188
+    ## [1] 6.846
 
 #### Question 2:
 
@@ -224,10 +224,8 @@ need to go wild with styling of the histogram.
 ``` r
 s_mean_5_x_200 %>%
 ggplot(aes(x = sampling_means_5salaries)) +
-  geom_histogram()
+  geom_histogram(color = "red", binwidth = 0.5)
 ```
-
-    ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
 ![](Key---MLB-Salaries-and-CLT-Exploration_files/figure-gfm/visualize%20and%20summarize%20n5-1.png)<!-- -->
 
@@ -289,6 +287,29 @@ s\_mean\_10\_x\_200 dataset. \*\*\*HINT: Use code you’ve done before or
 even code included already included in this worksheet. Use your answers
 in parts a and b of question 4. You do not need to go wild with styling
 of the histogram.
+
+``` r
+s_mean_10_x_200 %>%
+ggplot(aes(x = sampling_means_10salaries)) +
+  geom_histogram(color = "green", binwidth = 0.5)
+```
+
+![](Key---MLB-Salaries-and-CLT-Exploration_files/figure-gfm/visualize%20and%20summarize%20n10-1.png)<!-- -->
+
+``` r
+s_mean_10_x_200 %>%
+  summarize(mean = mean(sampling_means_10salaries),
+            sd = sd(sampling_means_10salaries),
+            median = median(sampling_means_10salaries),
+            iqr_middle_50 = IQR(sampling_means_10salaries), 
+            p_25 = quantile(sampling_means_10salaries,.25),
+            p_75 = quantile(sampling_means_10salaries,.75))
+```
+
+    ## # A tibble: 1 x 6
+    ##    mean    sd median iqr_middle_50  p_25  p_75
+    ##   <dbl> <dbl>  <dbl>         <dbl> <dbl> <dbl>
+    ## 1  4.63  1.97   4.56          2.80  3.14  5.93
 
 #### Question 6:
 

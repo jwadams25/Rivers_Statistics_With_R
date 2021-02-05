@@ -122,7 +122,7 @@ Ok. Now that you understand basics of the dataset, let's learn more about it. Us
 ```{r visualize and summarize n5}
 s_mean_5_x_200 %>%
 ggplot(aes(x = sampling_means_5salaries)) +
-  geom_histogram()
+  geom_histogram(color = "red", binwidth = 0.5)
 
 s_mean_5_x_200 %>%
   summarize(mean = mean(sampling_means_5salaries),
@@ -156,7 +156,17 @@ s_mean_10_x_200
 Use the space below to generate a histogram and summary statistics for the data recorded for the sampling_means_10salaries variable from the s_mean_10_x_200 dataset. ***HINT: Use code you've done before or even code included already included in this worksheet. Use your answers in parts a and b of question 4. You do not need to go wild with styling of the histogram.
 
 ```{r visualize and summarize n10}
+s_mean_10_x_200 %>%
+ggplot(aes(x = sampling_means_10salaries)) +
+  geom_histogram(color = "green", binwidth = 0.5)
 
+s_mean_10_x_200 %>%
+  summarize(mean = mean(sampling_means_10salaries),
+            sd = sd(sampling_means_10salaries),
+            median = median(sampling_means_10salaries),
+            iqr_middle_50 = IQR(sampling_means_10salaries), 
+            p_25 = quantile(sampling_means_10salaries,.25),
+            p_75 = quantile(sampling_means_10salaries,.75))
 ```
 
 #### Question 6: 
