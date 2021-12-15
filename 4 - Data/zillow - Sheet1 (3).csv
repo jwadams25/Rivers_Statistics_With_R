@@ -1,0 +1,1729 @@
+house_number,price_thousands,Living_Area,Bedrooms,Age,Bathrooms,Central_Air,Fuel_Type,Heat_Type,Fireplace
+1,132.5,906,2,42,1,No,Electric,Electric,Yes
+2,181.115,1953,3,0,2.5,No,Gas,Hot Water,No
+3,109,1944,4,133,1,No,Gas,Hot Water,Yes
+4,155,1944,3,13,1.5,No,Gas,Hot Air,Yes
+5,86.06,840,2,0,1,Yes,Gas,Hot Air,No
+6,120,1152,4,31,1,No,Gas,Hot Air,Yes
+7,153,2752,4,33,1.5,No,Oil,Hot Water,Yes
+8,170,1662,4,23,1.5,No,Oil,Hot Air,Yes
+9,90,1632,3,36,1.5,No,Electric,Electric,No
+10,122.9,1416,3,4,1.5,No,Gas,Hot Air,No
+11,325,2894,7,123,1,No,Oil,Hot Air,No
+12,120,1624,3,1,2,No,Gas,Hot Air,No
+13,85.86,704,2,13,1,No,Electric,Electric,No
+14,97,1383,3,153,2,No,Gas,Hot Water,No
+15,127,1300,3,9,1.5,No,Oil,Hot Air,No
+16,89.9,936,3,88,1,No,Gas,Hot Water,No
+17,155,1300,3,9,1.5,No,Oil,Hot Air,No
+18,253.75,2816,4,0,2.5,Yes,Gas,Hot Air,Yes
+19,60,924,2,82,1,No,Oil,Hot Water,No
+20,87.5,1092,3,17,1,No,Oil,Hot Air,No
+21,112,1056,3,12,1,No,Electric,Electric,No
+22,104.9,1600,3,21,1.5,No,Electric,Electric,No
+23,148.635,1576,3,1,2.5,Yes,Gas,Hot Air,No
+24,150,2080,3,24,2,No,Oil,Hot Air,No
+25,90.4,1600,3,16,1.5,No,Electric,Electric,No
+26,248.8,2224,4,28,3,No,Oil,Hot Air,No
+27,135,1656,3,126,1,No,Oil,Hot Water,No
+28,145,1170,4,26,1.5,No,Oil,Hot Air,No
+29,457,2461,4,53,2,No,Oil,Hot Air,Yes
+30,140,1544,3,56,1.5,Yes,Oil,Hot Air,Yes
+31,130,1220,2,51,1,No,Oil,Hot Water,Yes
+32,187,1858,3,3,2.5,No,Gas,Hot Air,Yes
+33,229,2219,3,9,2,No,Gas,Hot Air,Yes
+34,227,1876,3,201,2.5,No,Oil,Hot Air,No
+35,179.9,2026,4,1,2.5,No,Gas,Hot Air,Yes
+36,169.9,1671,4,19,3,Yes,Gas,Hot Air,Yes
+37,209.9,2060,4,1,2.5,No,Gas,Hot Air,Yes
+38,169.9,1884,4,0,2.5,No,Gas,Hot Air,Yes
+39,293,2022,4,43,3,No,Gas,Hot Water,Yes
+40,245.9,2394,4,0,2.5,Yes,Gas,Hot Air,Yes
+41,157,1390,3,45,1.5,No,Gas,Hot Air,Yes
+42,195,1954,4,32,2.5,Yes,Gas,Hot Air,No
+43,150,1554,3,54,1.5,Yes,Oil,Hot Air,Yes
+44,234.9,1976,3,9,2.5,Yes,Gas,Hot Air,No
+45,279.55,2479,4,0,2.5,No,Gas,Hot Air,Yes
+46,246.5,2714,4,0,2.5,No,Gas,Hot Air,Yes
+47,124,797,2,98,1,No,Oil,Hot Air,No
+48,138,1500,3,54,2.5,No,Gas,Hot Water,No
+49,290,1838,4,73,2,No,Oil,Hot Air,No
+50,108,1042,2,48,2,No,Gas,Hot Air,Yes
+51,134.9,1782,3,10,2.5,Yes,Gas,Hot Air,No
+52,64.5,1480,2,16,2.5,No,Gas,Hot Air,Yes
+53,142,1426,3,20,2,No,Gas,Hot Air,Yes
+54,125,1404,3,32,2,No,Gas,Hot Air,No
+55,88,1480,3,15,1.5,Yes,Gas,Hot Water,Yes
+56,135,1344,3,135,1,No,Gas,Hot Water,No
+57,90,1480,2,14,2.5,Yes,Gas,Hot Air,Yes
+58,90.1,1480,3,15,1.5,No,Gas,Hot Water,Yes
+59,126.9,1596,3,10,2.5,No,Gas,Hot Air,No
+60,175,1768,3,15,2,No,Electric,Electric,Yes
+61,158,1348,2,10,2,Yes,Gas,Hot Air,Yes
+62,92,1480,3,14,1.5,No,Gas,Hot Air,Yes
+63,82.8,1483,3,225,1,No,Gas,Hot Air,No
+64,140,1576,4,25,1.5,Yes,Gas,Hot Air,Yes
+65,171,1008,2,15,1,No,Electric,Electric,No
+66,200.64,2332,4,0,2.5,No,Gas,Hot Air,No
+67,139,1064,3,30,1,No,Oil,Hot Air,Yes
+68,225,2428,4,12,2.5,Yes,Gas,Hot Air,Yes
+69,182,1310,3,16,2,No,Electric,Electric,Yes
+70,208.767,1662,3,0,2,Yes,Gas,Hot Air,No
+71,186,2000,4,0,2.5,No,Gas,Hot Air,No
+72,93,1480,3,14,1.5,No,Gas,Hot Air,Yes
+73,257.386,2969,4,0,4,Yes,Gas,Hot Air,Yes
+74,161,1542,3,10,2.5,Yes,Gas,Hot Air,No
+75,92,1527,4,18,2,No,Oil,Hot Air,No
+76,211.002,2195,4,0,2.5,No,Gas,Hot Air,No
+77,115,1480,3,14,1.5,No,Gas,Hot Air,Yes
+78,113,1452,3,53,2,Yes,Oil,Hot Water,No
+79,216.3,2360,4,0,2.5,No,Gas,Hot Air,No
+80,145,1440,3,32,1,No,Oil,Hot Air,Yes
+81,114,1480,2,14,2.5,No,Electric,Hot Air,Yes
+82,139.05,1879,3,125,2.5,No,Gas,Hot Air,No
+83,104,1480,3,14,1.5,No,Gas,Hot Air,No
+84,169.9,1792,3,11,2.5,No,Gas,Hot Air,No
+85,177.9,1386,3,2,2.5,No,Gas,Hot Air,No
+86,133,1676,2,14,2,Yes,Electric,Hot Air,Yes
+87,185,768,4,0,2,No,Gas,Hot Air,No
+88,115,1560,3,16,1.5,Yes,Electric,Electric,Yes
+89,100,1000,3,91,1,No,Oil,Hot Air,No
+90,117,1676,4,15,1.5,No,Electric,Electric,Yes
+91,150,1656,3,11,1.5,No,Electric,Electric,No
+92,187.5,2300,3,11,1.5,No,Electric,Electric,Yes
+93,107,1712,3,25,1,No,Gas,Hot Air,Yes
+94,126.9,1350,3,26,1.5,No,Gas,Hot Air,No
+95,147,1676,3,15,2.5,No,Gas,Hot Air,Yes
+96,62,1317,3,103,1.5,No,Gas,Hot Water,No
+97,101,1056,3,30,2,No,Gas,Hot Air,Yes
+98,143.5,912,3,13,1,No,Gas,Hot Air,No
+99,113.4,1232,2,18,2,No,Electric,Electric,No
+100,76.32,1380,3,68,1,No,Gas,Hot Air,Yes
+101,110,936,3,10,1,Yes,Gas,Hot Air,No
+102,88,720,3,49,1,No,Gas,Hot Air,No
+103,108,1628,2,30,1.5,No,Oil,Hot Water,Yes
+104,114.9,1144,3,41,1.5,No,Gas,Hot Air,No
+105,146,1827,3,2,2.5,No,Gas,Hot Air,No
+106,225,1784,3,8,2,No,Oil,Hot Water,Yes
+107,138,1851,3,16,2.5,Yes,Gas,Hot Air,Yes
+108,218.07,2194,4,0,2.5,No,Gas,Hot Water,No
+109,25,920,2,75,1,No,Oil,Hot Air,No
+110,112,1280,3,36,1,No,Gas,Hot Water,No
+111,112.5,1232,3,43,1,No,Electric,Electric,Yes
+112,97,1406,3,45,1.5,No,Gas,Hot Water,No
+113,121,1164,3,6,2,No,Gas,Hot Air,No
+114,65.72,1198,3,123,1,No,Gas,Hot Water,No
+115,225,2206,4,10,2.5,Yes,Gas,Hot Air,Yes
+116,192,1880,3,0,2.5,Yes,Gas,Hot Air,Yes
+117,158.5,1368,3,6,1.5,No,Oil,Hot Air,No
+118,247,1901,3,16,2.5,Yes,Gas,Hot Air,Yes
+119,193.777,1547,3,11,2,No,Gas,Hot Air,No
+120,136.5,896,3,12,2,No,Gas,Hot Air,No
+121,75,1008,3,45,1,No,Gas,Hot Air,No
+122,45,912,2,75,1,No,Gas,Hot Air,No
+123,243,2443,3,12,2.5,No,Gas,Hot Air,No
+124,90,900,4,83,1,No,Gas,Hot Air,No
+125,158,2098,3,0,2,Yes,Gas,Hot Air,No
+126,174,2115,4,9,2.5,No,Gas,Hot Water,Yes
+127,150,1344,2,12,2,No,Gas,Hot Air,Yes
+128,159.65,1106,3,3,1,No,Gas,Hot Air,No
+129,139.062,1440,3,33,2,No,Gas,Hot Water,Yes
+130,84.95,840,2,0,1,No,Gas,Hot Air,No
+131,102,1170,2,10,1,No,Gas,Hot Air,No
+132,175,1664,4,15,1,No,Oil,Hot Air,No
+133,78.5,3024,4,153,1,No,Oil,Hot Air,No
+134,232.478,2598,4,0,2.5,No,Gas,Hot Air,Yes
+135,93.805,840,2,0,1.5,No,Gas,Hot Air,No
+136,119.9,1701,5,63,1,No,Oil,Hot Water,No
+137,146,1456,3,33,1.5,No,Oil,Hot Air,Yes
+138,125,1224,3,44,1,No,Oil,Hot Air,No
+139,135,1411,3,48,1,No,Gas,Hot Air,Yes
+140,157.5,1608,3,29,1.5,No,Oil,Hot Air,Yes
+141,135,3020,4,178,2.5,No,Oil,Hot Water,No
+142,142.9,1898,3,32,1.5,No,Gas,Hot Water,Yes
+143,259.9,2544,4,1,2.5,Yes,Gas,Hot Air,Yes
+144,85,1038,2,16,1,No,Electric,Electric,No
+145,180.377,1820,3,1,2.5,No,Gas,Hot Air,Yes
+146,163.5,2202,3,21,2,Yes,Electric,Electric,Yes
+147,106.5,2387,3,53,1,No,Oil,Hot Air,No
+148,115,1368,2,16,1.5,Yes,Electric,Electric,Yes
+149,115,1480,2,16,2,Yes,Electric,Electric,Yes
+150,135,1348,2,15,1.5,Yes,Electric,Electric,Yes
+151,198.9,1889,4,7,2.5,Yes,Gas,Hot Air,Yes
+152,139,1343,2,16,1.5,Yes,Electric,Electric,Yes
+153,206,2011,3,15,2.5,Yes,Gas,Hot Air,Yes
+154,120,1180,2,15,1.5,Yes,Gas,Hot Air,Yes
+155,205.98,1983,3,1,2.5,Yes,Gas,Hot Air,Yes
+156,275,2253,3,14,2.5,Yes,Gas,Hot Air,Yes
+157,139,1604,2,12,1.5,Yes,Gas,Hot Air,No
+158,89.9,1196,3,83,1,No,Gas,Hot Air,No
+159,139.9,1602,2,13,2.5,Yes,Gas,Hot Air,No
+160,172.75,1747,3,1,2.5,No,Gas,Hot Air,No
+161,136,1092,3,37,1,No,Oil,Hot Water,No
+162,270,2410,4,10,2.5,Yes,Gas,Hot Air,Yes
+163,174,1933,3,14,2.5,Yes,Gas,Hot Air,Yes
+164,379,3080,4,9,2.5,Yes,Gas,Hot Air,Yes
+165,382.5,4534,6,13,2.5,Yes,Oil,Hot Air,Yes
+166,144.9,1677,3,14,2.5,Yes,Gas,Hot Air,Yes
+167,349.9,2900,4,7,2.5,Yes,Gas,Hot Air,Yes
+168,133,1392,2,16,1.5,Yes,Electric,Electric,Yes
+169,115,1058,2,15,1.5,No,Gas,Hot Air,Yes
+170,211.95,2342,4,1,2.5,Yes,Gas,Hot Air,Yes
+171,227.812,2206,4,0,2.5,Yes,Gas,Hot Air,Yes
+172,164.4,1516,3,1,2,Yes,Gas,Hot Air,Yes
+173,340,2836,4,12,2.5,Yes,Gas,Hot Air,Yes
+174,139.9,1256,2,15,1.5,Yes,Gas,Hot Air,No
+175,279.9,2340,4,6,3.5,Yes,Gas,Hot Air,Yes
+176,225,2129,4,0,2.5,Yes,Gas,Hot Air,Yes
+177,144.5,1343,2,15,2.5,Yes,Gas,Hot Air,Yes
+178,362.71,2963,4,0,2.5,Yes,Gas,Hot Air,Yes
+179,247,2114,4,13,3.5,Yes,Gas,Hot Air,Yes
+180,120,1144,2,16,1,Yes,Electric,Electric,Yes
+181,136,988,3,33,1,No,Oil,Hot Air,Yes
+182,228.5,1475,3,9,2,No,Gas,Hot Air,No
+183,162.8,1247,3,10,1.5,No,Gas,Hot Air,No
+184,230,1912,5,48,2,No,Gas,Hot Water,Yes
+185,115.8,1440,3,23,1.5,No,Oil,Hot Air,No
+186,175,1596,3,16,2,Yes,Gas,Hot Air,Yes
+187,263.008,2665,4,0,2.5,Yes,Gas,Hot Air,Yes
+188,146,1984,3,35,1.5,No,Gas,Hot Water,No
+189,204.9,1616,3,10,2,Yes,Gas,Hot Air,No
+190,265,1917,3,9,2.5,No,Gas,Hot Air,Yes
+191,167.5,2592,3,37,1.5,No,Oil,Hot Water,Yes
+192,205,1845,3,6,2.5,No,Gas,Hot Air,Yes
+193,170,1360,4,53,1,Yes,Oil,Hot Air,No
+194,176,1664,3,35,1.5,Yes,Gas,Hot Air,Yes
+195,132,1098,2,15,1.5,Yes,Gas,Hot Air,Yes
+196,115.5,1214,2,17,1.5,No,Electric,Electric,No
+197,150,1046,3,93,1,No,Electric,Electric,No
+198,120,1144,3,103,1,No,Oil,Hot Air,No
+199,125,1140,2,16,2,Yes,Gas,Hot Air,Yes
+200,150,1232,2,14,1.5,No,Gas,Hot Air,Yes
+201,362.36,3020,4,0,2.5,Yes,Gas,Hot Air,Yes
+202,133.5,1508,3,19,2,No,Gas,Hot Air,Yes
+203,91,912,2,19,1.5,No,Electric,Electric,Yes
+204,104,1508,3,18,1.5,No,Electric,Electric,No
+205,148,1561,3,17,1.5,No,Gas,Hot Air,Yes
+206,182,2625,4,30,2.5,No,Gas,Hot Water,Yes
+207,152.5,936,3,30,1,No,Gas,Hot Water,Yes
+208,97,912,2,19,1.5,No,Electric,Electric,No
+209,113,1492,3,16,2.5,No,Electric,Electric,No
+210,172,1599,4,30,2.5,No,Gas,Hot Water,Yes
+211,179.9,2304,5,25,2.5,No,Electric,Electric,Yes
+212,84,912,2,19,1.5,No,Electric,Electric,No
+213,117.9,1385,2,17,1.5,Yes,Gas,Hot Air,Yes
+214,177,1561,4,17,1.5,No,Electric,Electric,No
+215,107.5,884,2,20,2,No,Gas,Hot Water,No
+216,92.5,912,2,18,2,No,Electric,Electric,No
+217,102.9,912,2,17,1.5,No,Gas,Electric,No
+218,134.8,1384,3,73,2,No,Oil,Hot Air,No
+219,150,1334,3,7,1.5,No,Gas,Hot Air,No
+220,165,1433,3,10,2,Yes,Gas,Hot Air,Yes
+221,120,1492,3,16,2.5,No,Electric,Electric,Yes
+222,177.5,1561,4,16,1.5,Yes,Gas,Hot Air,Yes
+223,300,936,1,11,1,No,Electric,Electric,No
+224,123.5,1492,3,16,2.5,No,Electric,Electric,Yes
+225,141,1853,3,18,2.5,No,Electric,Electric,No
+226,105.4,1240,2,15,1.5,No,Electric,Electric,No
+227,100.6,912,2,19,1.5,No,Electric,Electric,No
+228,108.9,912,2,19,1.5,No,Gas,Hot Air,No
+229,105.5,912,2,19,1.5,No,Gas,Hot Water,No
+230,109.9,1184,3,19,1.5,No,Gas,Hot Water,No
+231,172.7,1638,3,18,2,No,Electric,Electric,Yes
+232,166.5,1508,3,16,2,No,Electric,Electric,Yes
+233,105,672,2,50,1,No,Electric,Electric,No
+234,490,1346,3,18,2,No,Oil,Hot Air,Yes
+235,120,1184,3,18,2,No,Electric,Electric,No
+236,107.5,912,2,16,1.5,No,Gas,Hot Air,No
+237,116.6,912,2,18,1.5,No,Electric,Electric,Yes
+238,65,988,2,19,2,No,Gas,Hot Air,No
+239,118,1184,3,19,2,No,Gas,Hot Air,No
+240,115.9,1385,2,16,1.5,No,Electric,Electric,No
+241,100,912,2,18,1.5,No,Gas,Hot Water,No
+242,171,1548,3,18,2,Yes,Gas,Hot Air,Yes
+243,188,1561,4,17,1.5,No,Electric,Electric,No
+244,140,1008,2,24,1,Yes,Gas,Hot Air,No
+245,124.5,1385,2,17,1.5,No,Electric,Electric,No
+246,107.2,908,2,19,1,No,Gas,Hot Air,No
+247,107.5,2246,4,138,1.5,No,Oil,Hot Water,No
+248,180,1820,3,16,2.5,No,Gas,Hot Air,Yes
+249,214.325,2554,4,0,2.5,Yes,Gas,Hot Air,Yes
+250,128.85,824,3,16,1.5,No,Electric,Electric,No
+251,208.7,2458,4,0,2.5,No,Gas,Hot Air,Yes
+252,139.9,1324,3,22,1,No,Electric,Electric,No
+253,350,2916,3,12,2.5,Yes,Gas,Hot Air,Yes
+254,108,1032,2,19,1.5,No,Electric,Electric,No
+255,115.5,912,2,16,1.5,No,Electric,Electric,Yes
+256,135,1320,2,35,1,No,Electric,Electric,No
+257,135,1508,3,17,1.5,No,Gas,Hot Air,Yes
+258,107.4,912,2,16,1.5,No,Electric,Electric,Yes
+259,233,2040,4,12,2.5,Yes,Gas,Hot Air,Yes
+260,105,912,2,17,1.5,No,Electric,Electric,Yes
+261,335,1776,2,10,2,Yes,Oil,Hot Air,No
+262,139,1304,3,25,2,No,Electric,Electric,No
+263,209.5,1836,4,10,2.5,Yes,Gas,Hot Air,Yes
+264,101,912,2,18,2,No,Electric,Electric,No
+265,77.5,912,2,19,1.5,No,Electric,Electric,No
+266,150.5,1527,2,16,2,No,Electric,Electric,Yes
+267,167,1454,3,17,1.5,No,Electric,Electric,No
+268,114,1700,3,26,1.5,No,Oil,Hot Water,Yes
+269,160,1680,4,27,1,No,Electric,Electric,No
+270,85,2401,4,0,2.5,Yes,Gas,Hot Air,Yes
+271,143,1176,3,21,1,No,Electric,Electric,No
+272,126,1344,3,24,1.5,No,Electric,Electric,Yes
+273,140,1344,3,23,1.5,No,Electric,Electric,No
+274,140,1714,3,9,2.5,No,Gas,Hot Water,No
+275,205,1992,4,20,3,No,Gas,Hot Air,Yes
+276,79.9,924,2,19,1,Yes,Gas,Hot Air,No
+277,139,1290,2,24,1.5,Yes,Gas,Hot Air,Yes
+278,190,2521,4,36,2.5,No,Gas,Hot Water,Yes
+279,151.5,1377,3,58,1.5,No,Oil,Hot Water,Yes
+280,97.5,1237,2,19,1.5,Yes,Gas,Hot Air,Yes
+281,194.5,2310,4,41,2.5,Yes,Gas,Hot Water,Yes
+282,195.16,1863,3,0,2.5,No,Gas,Hot Air,Yes
+283,152.5,1693,3,26,1.5,Yes,Gas,Hot Air,Yes
+284,159.5,1684,3,26,2.5,Yes,Gas,Hot Air,Yes
+285,185,1585,3,16,1.5,Yes,Electric,Electric,Yes
+286,240,2290,4,8,3,Yes,Gas,Hot Air,Yes
+287,187.9,2464,5,32,2.5,Yes,Gas,Hot Air,Yes
+288,262,2549,4,5,2.5,Yes,Gas,Hot Air,Yes
+289,212.5,2316,4,6,2.5,Yes,Gas,Hot Air,Yes
+290,220,2600,4,18,2.5,Yes,Gas,Hot Air,Yes
+291,245,2677,4,15,2.5,Yes,Gas,Hot Air,Yes
+292,120,1479,3,19,1.5,Yes,Electric,Electric,No
+293,102.5,1138,2,16,1,Yes,Electric,Electric,No
+294,136,1576,3,24,2.5,No,Gas,Hot Water,No
+295,212.5,2084,4,10,2.5,Yes,Gas,Hot Air,Yes
+296,205.9,1726,3,26,2,Yes,Gas,Hot Air,Yes
+297,259.9,1851,2,2,2,Yes,Gas,Hot Air,Yes
+298,191.5,2310,5,30,2.5,No,Gas,Hot Air,Yes
+299,272.5,2930,4,0,2.5,No,Gas,Hot Air,Yes
+300,191.5,2576,4,33,2.5,No,Gas,Hot Water,Yes
+301,158,1664,3,36,2,No,Gas,Hot Water,Yes
+302,195,1237,2,24,1.5,No,Electric,Electric,No
+303,187.5,2662,5,29,2.5,Yes,Gas,Hot Air,Yes
+304,160,1575,3,35,1.5,No,Gas,Hot Air,Yes
+305,137.5,1566,2,12,1.5,Yes,Gas,Hot Air,No
+306,109.9,1326,2,16,1.5,Yes,Gas,Hot Air,Yes
+307,85,1480,3,18,1.5,No,Gas,Hot Water,No
+308,184.35,2161,4,0,2.5,No,Gas,Hot Air,Yes
+309,134.5,1352,2,10,1.5,Yes,Gas,Hot Air,Yes
+310,154.9,1648,3,33,1.5,Yes,Gas,Hot Air,No
+311,255,2936,3,25,3.5,Yes,Gas,Hot Air,Yes
+312,238.6,2404,4,1,2.5,No,Gas,Hot Air,Yes
+313,106,1738,3,36,1.5,No,Gas,Hot Air,No
+314,625,5228,4,14,4,Yes,Gas,Hot Air,Yes
+315,195,2576,4,34,2.5,No,Gas,Hot Water,Yes
+316,168.5,1586,3,34,1.5,No,Gas,Hot Air,Yes
+317,87,1480,3,19,1.5,No,Electric,Electric,No
+318,215,1917,4,15,2.5,No,Gas,Hot Air,Yes
+319,197.5,1938,3,30,1.5,Yes,Gas,Hot Air,Yes
+320,215,2110,4,3,2.5,Yes,Gas,Hot Air,Yes
+321,118,1479,3,19,1.5,No,Gas,Hot Air,No
+322,187.9,2576,5,34,2.5,No,Gas,Hot Water,Yes
+323,275,2445,4,18,2.5,Yes,Gas,Hot Air,Yes
+324,249.9,2185,3,14,2.5,Yes,Gas,Hot Air,Yes
+325,270,2078,4,18,2.5,Yes,Electric,Hot Air,Yes
+326,157.9,1674,3,37,1.5,No,Gas,Hot Air,Yes
+327,120,1228,4,19,1.5,No,Electric,Electric,No
+328,126.4,1375,2,22,1.5,Yes,Electric,Electric,Yes
+329,220,1650,3,16,2,Yes,Gas,Hot Air,Yes
+330,180,1718,3,31,1.5,Yes,Gas,Hot Air,Yes
+331,203.6,2576,4,33,2.5,No,Gas,Hot Water,Yes
+332,249.9,2280,4,4,2.5,No,Gas,Hot Air,Yes
+333,193,2088,4,18,2.5,No,Gas,Hot Water,Yes
+334,215,1917,4,15,2.5,No,Gas,Hot Air,Yes
+335,201,3140,5,29,3.5,No,Gas,Hot Water,Yes
+336,65,1029,3,73,1,No,Gas,Hot Air,No
+337,195,1896,4,36,2.5,Yes,Gas,Hot Air,Yes
+338,215.9,2310,5,38,2.5,No,Gas,Hot Water,Yes
+339,92,924,2,17,1,No,Electric,Electric,Yes
+340,155,2080,3,25,2.5,Yes,Gas,Electric,Yes
+341,123.5,1237,3,22,1.5,Yes,Electric,Electric,Yes
+342,110.4,1287,3,29,1.5,Yes,Gas,Hot Air,No
+343,198.9,1847,3,18,2.5,No,Gas,Hot Water,Yes
+344,150,1064,3,49,1,Yes,Gas,Hot Air,No
+345,104,1480,3,18,1.5,Yes,Gas,Hot Air,Yes
+346,245,2462,5,23,3.5,Yes,Gas,Hot Air,Yes
+347,180,2228,3,17,2.5,No,Gas,Hot Water,Yes
+348,154.3,1260,3,61,1,No,Gas,Hot Water,No
+349,170,1559,4,30,2.5,No,Gas,Hot Air,Yes
+350,219,1980,4,25,2.5,Yes,Gas,Hot Air,Yes
+351,295,2380,3,9,2.5,No,Gas,Hot Air,Yes
+352,181.5,1887,4,27,2.5,No,Gas,Hot Water,Yes
+353,260,2185,4,133,1.5,No,Gas,Hot Water,Yes
+354,239.9,2488,4,15,2.5,Yes,Electric,Electric,Yes
+355,135.5,1152,1,56,2,No,Gas,Hot Air,No
+356,191.5,2025,4,15,2.5,No,Gas,Hot Water,Yes
+357,225,2521,5,37,2.5,No,Gas,Hot Water,Yes
+358,98.5,1480,3,18,1.5,Yes,Gas,Hot Air,No
+359,110.5,1480,3,17,1.5,Yes,Gas,Hot Air,Yes
+360,290,2362,4,7,2.5,No,Gas,Hot Air,Yes
+361,184.4,1910,3,31,1.5,Yes,Gas,Hot Air,Yes
+362,178.5,1952,3,12,2,No,Oil,Hot Air,Yes
+363,415,3358,4,9,3.5,Yes,Gas,Hot Air,Yes
+364,244.9,2090,4,26,2.5,Yes,Gas,Hot Air,Yes
+365,150,1965,5,35,2,Yes,Gas,Hot Air,Yes
+366,168,2110,4,33,1.5,Yes,Gas,Hot Air,Yes
+367,159,1456,4,43,2.5,No,Gas,Hot Air,No
+368,127,1479,3,18,1.5,No,Gas,Hot Air,No
+369,175,1874,4,29,2.5,No,Gas,Hot Water,Yes
+370,255.25,2099,4,0,2.5,No,Gas,Hot Air,Yes
+371,175,1872,3,33,2.5,No,Gas,Hot Water,Yes
+372,235,2388,4,17,2.5,Yes,Electric,Electric,Yes
+373,324,2812,4,18,2.5,Yes,Gas,Hot Air,Yes
+374,173,1064,2,11,2,No,Gas,Hot Air,Yes
+375,116.9,1375,2,20,1.5,Yes,Gas,Hot Air,No
+376,105.9,1480,3,19,1.5,No,Electric,Hot Air,No
+377,112,1260,2,25,1.5,Yes,Gas,Hot Air,Yes
+378,235,2086,3,15,2.5,Yes,Gas,Hot Air,Yes
+379,235,2588,4,9,2.5,No,Oil,Hot Air,Yes
+380,130,1480,3,18,1.5,No,Electric,Electric,No
+381,235,1752,3,10,2.5,No,Gas,Hot Air,Yes
+382,191.9,2660,4,32,2.5,No,Gas,Hot Water,Yes
+383,284.9,2417,3,20,2.5,Yes,Gas,Hot Air,Yes
+384,335,2793,3,21,2.5,Yes,Gas,Hot Air,Yes
+385,140,1152,2,78,1,No,Oil,Hot Water,No
+386,191,2344,4,29,2.5,No,Gas,Hot Water,Yes
+387,153,1926,4,33,1.5,Yes,Gas,Hot Air,Yes
+388,196,2208,4,35,2.5,Yes,Gas,Hot Air,Yes
+389,248,2208,3,16,2.5,Yes,Gas,Hot Air,Yes
+390,240,2708,5,35,2.5,No,Gas,Hot Water,Yes
+391,132,1142,3,18,1.5,Yes,Gas,Hot Air,No
+392,199,2529,3,32,2,Yes,Gas,Hot Air,Yes
+393,217,1797,4,20,2,No,Electric,Electric,No
+394,167,1611,3,31,1.5,No,Gas,Hot Air,Yes
+395,245,2576,4,13,2.5,Yes,Gas,Hot Air,Yes
+396,358,2653,4,10,2.5,Yes,Gas,Hot Air,No
+397,412.5,3896,5,13,4.5,Yes,Gas,Hot Water,Yes
+398,208,1585,3,16,1,Yes,Gas,Hot Air,Yes
+399,270,2774,4,10,2.5,Yes,Gas,Hot Air,Yes
+400,100,1283,2,54,1,No,Gas,Hot Air,Yes
+401,130,1136,3,29,1,No,Oil,Hot Air,No
+402,182.5,1896,4,32,2.5,No,Gas,Hot Water,Yes
+403,139,1536,2,55,1,No,Gas,Hot Water,Yes
+404,104,1480,3,19,1.5,No,Electric,Electric,Yes
+405,221,2096,4,14,2.5,Yes,Gas,Hot Air,Yes
+406,260,2324,4,8,2.5,Yes,Gas,Hot Air,No
+407,182.5,2079,4,29,2.5,No,Gas,Hot Water,Yes
+408,196,1911,4,33,1.5,Yes,Gas,Hot Air,Yes
+409,132,1480,3,18,1.5,Yes,Gas,Hot Air,Yes
+410,224.9,2208,4,25,2.5,No,Gas,Hot Water,Yes
+411,199.9,1462,3,9,2.5,No,Gas,Hot Air,No
+412,165.835,1794,4,38,1.5,No,Gas,Hot Air,Yes
+413,189,1886,4,38,2.5,No,Gas,Hot Water,Yes
+414,89.9,1080,3,19,1.5,No,Electric,Electric,No
+415,235,2576,5,34,3,Yes,Gas,Hot Water,Yes
+416,166,1508,4,26,1.5,No,Gas,Hot Water,Yes
+417,153.1,1672,4,35,1,No,Gas,Hot Air,Yes
+418,162,1739,4,35,1.5,Yes,Gas,Hot Air,Yes
+419,224,3074,7,40,2.5,No,Gas,Hot Water,Yes
+420,222.4,1976,3,3,2.5,No,Gas,Hot Air,Yes
+421,199,2302,4,37,2.5,No,Gas,Hot Water,Yes
+422,166,1480,3,13,2,Yes,Gas,Hot Air,Yes
+423,149.9,960,2,11,2,No,Gas,Hot Water,No
+424,152,1582,3,16,1.5,No,Electric,Electric,No
+425,162.5,1600,4,154,1,No,Oil,Hot Air,No
+426,274.9,2320,4,5,2.5,No,Gas,Hot Air,No
+427,100,1034,2,14,1.5,No,Gas,Hot Water,No
+428,215,1488,3,19,1.5,No,Electric,Electric,No
+429,124,1056,3,17,1,No,Electric,Electric,No
+430,125,864,3,128,1,No,Oil,Hot Air,No
+431,138,1552,3,19,2,No,Electric,Electric,Yes
+432,225,1816,3,11,1.5,No,Gas,Hot Air,Yes
+433,180,1530,3,20,2,Yes,Gas,Hot Air,Yes
+434,189.9,1756,4,14,2,Yes,Gas,Hot Air,No
+435,435,4211,5,25,3.5,No,Gas,Hot Water,Yes
+436,120,2206,3,10,2.5,No,Oil,Hot Air,Yes
+437,163,1092,2,64,1,No,Oil,Hot Air,No
+438,131,1594,7,114,1,No,Oil,Hot Water,No
+439,126.5,1480,3,15,2.5,No,Gas,Hot Air,Yes
+440,122.5,1480,3,15,1.5,Yes,Gas,Hot Air,Yes
+441,425,3003,4,88,3.5,Yes,Gas,Hot Air,Yes
+442,225,2164,2,54,1.5,No,Oil,Hot Water,No
+443,209,1519,2,19,1,No,Oil,Hot Water,No
+444,189.1,1604,3,15,2.5,Yes,Oil,Hot Air,Yes
+445,285,1400,3,25,2,No,Electric,Electric,Yes
+446,266.6,1752,4,12,1,No,Gas,Hot Air,No
+447,80,880,2,32,1.5,No,Electric,Electric,No
+448,225,1240,3,14,2,No,Oil,Hot Air,No
+449,159,1514,3,17,1.5,No,Gas,Hot Air,Yes
+450,119.9,840,1,2,1,Yes,Gas,Hot Air,No
+451,130.9,840,2,1,1,Yes,Gas,Hot Air,No
+452,194.67,2592,4,124,1.5,No,Gas,Hot Air,No
+453,72,1010,3,121,1,No,Gas,Hot Air,No
+454,144.7,1380,3,2,1.5,No,Gas,Hot Air,No
+455,139.5,1366,3,3,1.5,Yes,Gas,Hot Air,No
+456,319,1681,3,5,2.5,Yes,Gas,Hot Air,Yes
+457,348,2037,3,14,2,No,Oil,Hot Water,Yes
+458,189.9,2570,3,16,1.5,No,Oil,Hot Water,No
+459,20,936,2,59,1,No,Oil,Hot Air,No
+460,60,960,2,13,1.5,No,Gas,Hot Water,No
+461,179.5,1352,3,11,1.5,No,Oil,Hot Air,Yes
+462,133.3,1060,4,118,1,No,Gas,Hot Water,No
+463,153,1508,3,6,2,No,Oil,Hot Air,No
+464,111.9,1272,4,54,1.5,No,Oil,Hot Air,Yes
+465,187,2389,6,18,3,No,Oil,Hot Water,No
+466,158.5,1210,2,17,1,No,Gas,Hot Air,Yes
+467,153,1230,3,52,1,No,Oil,Hot Air,Yes
+468,190,1832,4,47,2,No,Oil,Hot Air,Yes
+469,242,1854,3,27,1.5,No,Oil,Hot Water,Yes
+470,234.5,2268,3,164,2.5,No,Oil,Hot Air,No
+471,225,1807,3,29,1.5,No,Oil,Hot Air,Yes
+472,165,1272,4,48,1.5,No,Gas,Hot Air,Yes
+473,129.9,1560,3,12,1,Yes,Gas,Hot Air,Yes
+474,315,1863,3,15,3.5,Yes,Gas,Hot Air,Yes
+475,129.9,1120,2,64,1,No,Oil,Hot Air,No
+476,257,1832,2,15,2.5,Yes,Gas,Hot Air,Yes
+477,324,2092,4,0,2.5,Yes,Oil,Hot Air,Yes
+478,520,2702,3,13,2.5,No,Oil,Hot Air,Yes
+479,150.414,1040,3,32,1.5,No,Oil,Hot Water,Yes
+480,290,1758,2,13,2.5,Yes,Gas,Hot Air,Yes
+481,112,2326,3,116,2,No,Oil,Hot Air,No
+482,185,2340,3,13,1.5,No,Electric,Electric,No
+483,295,2058,3,1,2.5,No,Oil,Hot Water,Yes
+484,290,944,1,33,1,No,Oil,Hot Air,Yes
+485,79.9,640,2,44,1,No,Electric,Electric,No
+486,256,2353,4,6,2.5,Yes,Gas,Hot Air,Yes
+487,245,2038,4,7,2.5,No,Gas,Hot Water,Yes
+488,140,1469,4,32,1.5,Yes,Gas,Hot Air,No
+489,272,2219,3,10,2,No,Gas,Hot Air,Yes
+490,164,1774,4,16,2,No,Gas,Hot Air,No
+491,182.5,1296,4,51,2,Yes,Oil,Hot Air,Yes
+492,219.9,2289,4,124,1.5,No,Oil,Hot Water,Yes
+493,325,2463,5,134,2.5,No,Gas,Hot Air,Yes
+494,352,3126,4,2,2.5,Yes,Oil,Hot Air,No
+495,315,2550,3,15,2.5,No,Oil,Hot Water,No
+496,154,1182,2,49,1,Yes,Oil,Hot Air,No
+497,199,1890,4,48,2,Yes,Oil,Hot Air,Yes
+498,202,1944,3,12,2.5,No,Oil,Hot Air,Yes
+499,292,2815,4,6,2.5,No,Gas,Hot Air,Yes
+500,116.6,1040,3,11,2,No,Electric,Electric,Yes
+501,155,1638,4,25,2,No,Oil,Hot Air,No
+502,215,2206,4,13,2.5,No,Gas,Hot Air,Yes
+503,373.49,3170,4,0,3.5,No,Gas,Hot Air,Yes
+504,259.142,2328,4,0,2.5,Yes,Gas,Hot Air,Yes
+505,293.565,2737,4,0,3,No,Gas,Hot Air,Yes
+506,285.558,2879,4,0,3,No,Gas,Hot Air,No
+507,273.96,2158,3,1,2,Yes,Gas,Hot Air,Yes
+508,185,1336,3,11,2,Yes,Gas,Hot Air,Yes
+509,190,1594,3,4,2.5,No,Gas,Hot Air,No
+510,171,1603,3,11,1.5,Yes,Gas,Hot Air,No
+511,208,2190,4,11,2.5,Yes,Gas,Hot Air,No
+512,168,1478,3,10,2.5,Yes,Gas,Hot Air,Yes
+513,165,1348,2,10,2,Yes,Gas,Hot Air,No
+514,138.5,1558,3,36,1,Yes,Gas,Hot Air,Yes
+515,179.9,1574,3,13,1.5,No,Gas,Hot Air,Yes
+516,180,1612,4,13,2,Yes,Gas,Hot Air,No
+517,112,1216,3,129,1,No,Gas,Hot Water,No
+518,152,2256,4,124,1.5,Yes,Gas,Hot Air,No
+519,100,1170,3,28,1.5,No,Oil,Hot Air,Yes
+520,154,1456,3,29,2,No,Oil,Hot Air,No
+521,133,1320,3,29,3,No,Electric,Electric,No
+522,285,2076,4,14,2.5,Yes,Gas,Hot Air,Yes
+523,138,1326,3,22,2,No,Electric,Electric,No
+524,303,2240,4,20,2.5,No,Electric,Electric,Yes
+525,250,2100,4,19,3,Yes,Gas,Hot Air,Yes
+526,167.5,1129,2,27,1,No,Oil,Hot Air,No
+527,190,2296,4,19,2.5,Yes,Gas,Hot Air,Yes
+528,182.5,1475,3,20,2,No,Gas,Hot Air,Yes
+529,107,1268,3,20,1,No,Gas,Hot Air,Yes
+530,195,1816,3,15,2,No,Gas,Hot Air,Yes
+531,169,1632,4,30,2.5,No,Gas,Hot Water,Yes
+532,156,1254,2,11,1.5,No,Gas,Hot Air,No
+533,120,1272,3,30,1,No,Gas,Hot Air,No
+534,170,1604,4,29,1.5,Yes,Gas,Hot Air,No
+535,249.835,2474,4,0,2.5,Yes,Gas,Hot Air,Yes
+536,188.095,2057,3,0,2.5,Yes,Gas,Hot Air,Yes
+537,176.45,1852,3,6,2.5,Yes,Electric,Electric,No
+538,322.277,2242,3,1,3,Yes,Gas,Hot Air,No
+539,149,1564,4,32,1.5,No,Gas,Hot Air,Yes
+540,95,960,3,24,1,No,Electric,Electric,No
+541,198.5,1680,2,63,2.5,Yes,Gas,Hot Air,No
+542,185,1428,2,3,2.5,Yes,Gas,Hot Air,Yes
+543,168.9,1672,3,0,2.5,Yes,Gas,Hot Air,No
+544,220,2284,3,29,1.5,Yes,Gas,Hot Air,Yes
+545,129.9,1286,3,31,1,Yes,Gas,Hot Air,Yes
+546,167,1250,3,53,1,No,Gas,Hot Water,No
+547,330,1896,4,113,1.5,No,Oil,Hot Water,No
+548,336,2592,3,1,3,Yes,Gas,Hot Air,No
+549,512.971,1904,2,0,2,Yes,Gas,Hot Air,Yes
+550,229,1680,3,3,2,Yes,Gas,Hot Air,No
+551,145,1152,2,38,1,No,Gas,Hot Air,Yes
+552,103,1290,3,16,1.5,Yes,Electric,Electric,Yes
+553,210,2396,4,93,1.5,No,Gas,Hot Air,Yes
+554,559,3090,4,55,4,Yes,Gas,Hot Water,Yes
+555,218,1428,3,142,1,No,Oil,Hot Water,No
+556,262.138,1631,3,0,2.5,Yes,Gas,Hot Air,Yes
+557,125,1368,3,33,1,No,Gas,Hot Air,No
+558,130,1134,3,36,1,No,Gas,Hot Air,No
+559,157.5,1697,3,27,1.5,Yes,Gas,Hot Air,Yes
+560,193,1666,3,6,2.5,Yes,Gas,Hot Air,Yes
+561,275,1738,4,78,2.5,Yes,Oil,Hot Water,Yes
+562,240,1457,2,103,1.5,No,Gas,Hot Water,No
+563,200.136,1632,3,0,2.5,Yes,Gas,Hot Air,Yes
+564,395,2186,3,12,2.5,Yes,Gas,Hot Air,No
+565,366.703,2117,3,0,2.5,Yes,Electric,Hot Air,Yes
+566,103.15,936,3,32,1,No,Gas,Hot Air,Yes
+567,310,3347,6,169,2.5,No,Gas,Hot Water,Yes
+568,142.9,1824,4,32,2.5,Yes,Gas,Hot Air,Yes
+569,359.77,2592,3,1,3,Yes,Gas,Hot Air,No
+570,126,1080,2,64,1,No,Oil,Hot Air,No
+571,760,3148,5,2,3.5,Yes,Gas,Hot Air,No
+572,282.5,2128,3,150,1.5,No,Gas,Hot Water,Yes
+573,132,1616,3,18,1.5,No,Gas,Hot Air,No
+574,325,3313,4,5,2.5,Yes,Gas,Hot Air,Yes
+575,207,2327,3,25,1.5,No,Gas,Hot Water,Yes
+576,155,1640,4,32,1.5,Yes,Gas,Hot Air,Yes
+577,330,1421,3,73,1.5,No,Gas,Hot Water,No
+578,101.76,1280,2,103,1,No,Gas,Hot Water,Yes
+579,496,3467,4,3,2.5,Yes,Gas,Hot Air,Yes
+580,185,1250,3,83,1.5,No,Gas,Hot Water,No
+581,125,1368,3,33,1,No,Gas,Hot Air,No
+582,286,1396,3,1,2.5,No,Gas,Hot Air,No
+583,269,2004,3,15,2.5,Yes,Gas,Hot Air,Yes
+584,303.374,2242,3,1,3,Yes,Gas,Hot Air,No
+585,371.165,2786,4,0,2.5,No,Gas,Hot Air,Yes
+586,287.6,2242,3,0,2.5,Yes,Gas,Hot Air,No
+587,131,1404,3,33,1,No,Gas,Hot Air,No
+588,187,1600,3,25,1.5,Yes,Gas,Hot Air,Yes
+589,169,1408,2,103,1,No,Gas,Hot Air,No
+590,133.5,972,3,37,1,No,Gas,Hot Air,No
+591,620,4856,5,14,4,Yes,Oil,Hot Air,Yes
+592,549.254,2885,3,0,2.5,Yes,Gas,Hot Air,Yes
+593,280,1560,2,82,1,No,Gas,Hot Air,No
+594,135,1472,3,33,1,No,Gas,Hot Air,No
+595,195.388,2124,3,0,2.5,Yes,Gas,Hot Air,Yes
+596,337.02,2162,3,1,2.5,Yes,Gas,Hot Air,Yes
+597,330.85,2515,4,0,2.5,No,Gas,Hot Air,Yes
+598,248.495,2294,4,0,2.5,Yes,Gas,Hot Air,Yes
+599,120,1744,4,123,1,No,Gas,Hot Air,No
+600,240,2022,3,0,2.5,Yes,Gas,Hot Air,Yes
+601,235,1578,3,34,2,Yes,Gas,Hot Water,No
+602,500.075,3400,3,0,3,Yes,Gas,Hot Air,No
+603,240,1744,3,13,2.5,Yes,Gas,Hot Air,Yes
+604,270,2560,3,0,2.5,Yes,Gas,Hot Air,Yes
+605,225,1398,3,51,2.5,Yes,Gas,Hot Air,No
+606,280,2494,3,0,2.5,Yes,Gas,Hot Air,No
+607,225,2208,4,27,2.5,Yes,Gas,Hot Air,Yes
+608,248.22,2550,3,0,2.5,Yes,Gas,Hot Air,Yes
+609,275,1812,2,16,2.5,Yes,Gas,Hot Air,Yes
+610,137,1290,2,50,1,No,Gas,Hot Water,No
+611,150,1172,2,16,2,No,Gas,Hot Air,No
+612,649,4128,3,10,3.5,Yes,Gas,Hot Air,Yes
+613,195,1816,3,17,2.5,Yes,Electric,Electric,Yes
+614,373.2,2628,4,4,2.5,No,Gas,Hot Air,Yes
+615,169.45,1254,3,0,2.5,Yes,Gas,Hot Air,Yes
+616,144.2,1660,4,113,1.5,No,Gas,Hot Air,Yes
+617,189.9,1850,3,43,1.5,No,Gas,Hot Air,Yes
+618,166,1258,3,0,2,Yes,Gas,Hot Air,No
+619,160,1219,3,0,2,Yes,Gas,Hot Air,No
+620,327.355,1850,3,14,2.5,Yes,Gas,Hot Air,Yes
+621,247,2103,3,9,2.5,No,Gas,Hot Air,No
+622,318,1806,3,3,2.5,Yes,Gas,Hot Air,Yes
+623,341,1674,2,52,1.5,No,Gas,Hot Water,Yes
+624,288.65,2242,3,0,2.5,Yes,Gas,Hot Air,No
+625,157,1408,3,103,1.5,No,Gas,Hot Air,No
+626,449,3457,3,20,2.5,Yes,Electric,Electric,Yes
+627,142,1728,3,28,1.5,No,Gas,Hot Air,No
+628,389,2354,3,16,2.5,Yes,Electric,Electric,Yes
+629,476,2246,3,4,2.5,Yes,Gas,Hot Air,Yes
+630,249.23,1902,2,0,2.5,Yes,Gas,Hot Air,Yes
+631,139.9,1178,3,30,1,No,Gas,Hot Air,No
+632,301.9,2896,4,0,3.5,Yes,Gas,Hot Air,Yes
+633,425,2457,3,24,3,Yes,Gas,Hot Air,Yes
+634,121,936,3,32,1,No,Gas,Hot Air,No
+635,150,934,2,123,1,No,Gas,Hot Water,No
+636,138,1279,3,30,1,No,Gas,Hot Air,Yes
+637,199.9,1888,3,6,2,No,Gas,Hot Water,No
+638,145,1686,4,33,1.5,No,Gas,Hot Air,Yes
+639,465,2310,2,22,3,Yes,Gas,Hot Air,Yes
+640,158,1200,3,1,1.5,Yes,Gas,Hot Air,No
+641,375,1944,3,50,2.5,Yes,Gas,Hot Air,Yes
+642,147.783,1184,3,51,1,No,Electric,Electric,No
+643,339,2000,3,3,2.5,Yes,Gas,Hot Air,Yes
+644,267,1744,3,14,2.5,Yes,Gas,Hot Air,Yes
+645,290,1620,3,3,2.5,Yes,Gas,Hot Air,Yes
+646,271.295,2359,4,1,2.5,Yes,Gas,Hot Air,No
+647,278.14,2230,3,1,2.5,Yes,Gas,Hot Air,No
+648,138,1147,2,94,1.5,No,Gas,Hot Air,No
+649,367.5,2205,3,2,2.5,Yes,Gas,Hot Air,Yes
+650,428.5,3243,4,4,2.5,Yes,Gas,Hot Air,No
+651,140,1431,3,34,1.5,No,Gas,Hot Air,No
+652,140,936,3,35,1,No,Gas,Hot Air,No
+653,145,1368,3,33,1.5,Yes,Gas,Hot Air,No
+654,280,1800,3,16,2.5,Yes,Electric,Hot Air,Yes
+655,190.4,1920,3,16,1.5,No,Gas,Hot Air,Yes
+656,267,1416,3,83,2,No,Gas,Hot Water,No
+657,164.9,616,2,77,1,No,Gas,Hot Air,No
+658,280,1488,4,79,1.5,No,Gas,Hot Air,No
+659,225,1320,3,84,1.5,No,Oil,Hot Air,Yes
+660,148,1250,2,18,1.5,Yes,Gas,Hot Air,No
+661,165,1286,3,32,1,Yes,Gas,Hot Air,Yes
+662,340.455,2886,4,0,2.5,Yes,Gas,Hot Air,Yes
+663,133,1279,3,36,1,No,Gas,Hot Air,Yes
+664,115.54,1074,3,104,1,No,Gas,Hot Air,No
+665,240,1304,3,52,1,No,Gas,Hot Water,Yes
+666,600,3191,3,17,3.5,Yes,Gas,Hot Air,Yes
+667,71.5,1056,3,44,1,No,Gas,Hot Water,No
+668,189.9,1468,3,18,2.5,Yes,Gas,Hot Air,Yes
+669,325,1598,3,115,1.5,No,Gas,Hot Water,No
+670,280,1160,3,84,1.5,No,Gas,Hot Water,No
+671,255,1028,2,104,1,No,Gas,Hot Air,No
+672,300,2014,6,104,1,No,Gas,Hot Water,No
+673,106,1296,3,34,1,No,Gas,Hot Air,No
+674,139,932,2,56,1,No,Gas,Hot Air,No
+675,165,1290,3,15,1.5,No,Gas,Hot Air,Yes
+676,169,1448,2,19,1.5,No,Gas,Hot Air,No
+677,159.4,1368,3,29,1,No,Gas,Hot Air,No
+678,300,3046,4,25,1.5,No,Gas,Hot Water,Yes
+679,161,1272,3,32,1.5,No,Gas,Hot Air,No
+680,230.5,1822,4,18,2.5,Yes,Gas,Hot Air,No
+681,220,1579,4,31,1.5,Yes,Gas,Hot Air,No
+682,177.9,1660,4,32,1.5,No,Gas,Hot Air,Yes
+683,350,2452,3,36,2.5,No,Oil,Hot Water,Yes
+684,335,2004,3,94,2,Yes,Gas,Hot Air,No
+685,597.185,4210,4,0,3.5,Yes,Gas,Hot Air,Yes
+686,173,1640,4,32,1.5,Yes,Gas,Hot Air,No
+687,518,2847,3,144,1.5,No,Gas,Hot Water,Yes
+688,212,1816,3,18,2,Yes,Gas,Hot Air,Yes
+689,149.9,2028,4,19,2,No,Oil,Hot Air,No
+690,140.958,775,2,40,1,No,Gas,Hot Water,No
+691,95,1368,2,34,1,No,Gas,Hot Air,No
+692,161.6,936,3,34,1.5,No,Gas,Hot Air,No
+693,351.4,1680,2,1,2.5,Yes,Gas,Hot Air,Yes
+694,155,1368,3,33,1,No,Gas,Hot Air,No
+695,198.5,1326,3,34,1.5,Yes,Gas,Hot Air,Yes
+696,276,1579,3,62,2,Yes,Oil,Hot Air,Yes
+697,167,1286,3,32,1,No,Gas,Hot Air,No
+698,227,2132,3,25,2.5,Yes,Gas,Hot Air,Yes
+699,405.1,2000,3,3,2.5,Yes,Gas,Hot Air,Yes
+700,395,2222,3,3,2.5,Yes,Gas,Hot Air,No
+701,360,2641,4,99,2,No,Gas,Hot Water,No
+702,775,2472,3,5,2.5,Yes,Gas,Hot Air,Yes
+703,285,1926,2,16,3,Yes,Electric,Hot Air,Yes
+704,300,1534,3,4,2.5,Yes,Gas,Hot Air,No
+705,214,1490,3,39,1.5,No,Gas,Hot Air,No
+706,229,1126,3,46,2,No,Gas,Hot Water,Yes
+707,330,1435,3,33,1.5,Yes,Gas,Hot Air,No
+708,146,1136,3,44,1.5,No,Gas,Hot Air,No
+709,381.5,2162,3,2,2.5,Yes,Gas,Hot Air,Yes
+710,430,2328,3,5,2.5,Yes,Gas,Hot Air,Yes
+711,650,2754,3,2,2.5,Yes,Gas,Hot Air,Yes
+712,194.5,1504,4,40,1.5,No,Gas,Hot Air,No
+713,279,2473,4,14,3.5,Yes,Gas,Hot Air,Yes
+714,183,2072,4,35,2.5,No,Gas,Hot Air,Yes
+715,195,1480,3,18,2.5,Yes,Gas,Hot Air,Yes
+716,470,2096,3,135,2.5,No,Gas,Hot Air,Yes
+717,167,1050,2,80,1,No,Gas,Hot Water,No
+718,309.278,1650,2,17,2.5,Yes,Gas,Hot Air,Yes
+719,217.5,1596,3,26,1.5,Yes,Gas,Hot Air,No
+720,200,979,3,44,2,No,Gas,Hot Water,No
+721,199.995,1393,2,18,1.5,Yes,Gas,Hot Air,No
+722,179,864,2,44,1,No,Gas,Hot Air,No
+723,329,2744,4,1,2.5,Yes,Gas,Hot Air,No
+724,374.9,2300,3,15,3,Yes,Gas,Hot Air,Yes
+725,165,1612,3,34,1,No,Gas,Hot Air,Yes
+726,647,2640,4,14,2.5,Yes,Gas,Hot Air,Yes
+727,315,775,1,19,1,No,Oil,Hot Air,No
+728,208,2470,4,26,2.5,Yes,Gas,Hot Air,Yes
+729,405,3124,4,6,3,No,Gas,Hot Air,Yes
+730,535,3254,4,14,2.5,Yes,Gas,Hot Air,Yes
+731,184.02,1544,3,34,2.5,No,Gas,Hot Air,No
+732,95,1410,6,139,1.5,No,Gas,Hot Water,No
+733,87.55,906,2,44,1,No,Gas,Hot Air,No
+734,131,1512,3,66,1,No,Gas,Hot Air,Yes
+735,127,1232,3,77,1,No,Gas,Hot Air,Yes
+736,104.695,921,2,54,1,No,Gas,Hot Air,No
+737,120,1287,3,70,1,No,Gas,Hot Air,No
+738,278.5,2600,4,17,3,No,Electric,Electric,No
+739,75.5,1302,3,124,2,No,Gas,Hot Air,No
+740,121.9,1144,3,20,1,No,Gas,Hot Water,No
+741,208,1703,3,39,2,No,Gas,Hot Water,No
+742,151,1553,3,15,2,No,Electric,Electric,Yes
+743,138,1040,2,15,1,No,Electric,Electric,No
+744,229,2124,4,11,3,No,Gas,Hot Water,No
+745,130,1344,3,13,2,No,Gas,Hot Air,No
+746,89.9,884,2,66,1,No,Gas,Hot Air,No
+747,145,1812,3,11,1.5,No,Oil,Hot Air,No
+748,86,880,3,43,1,No,Gas,Hot Air,No
+749,95,1256,3,134,2,No,Gas,Hot Air,No
+750,195,1826,3,15,2.5,Yes,Gas,Hot Air,Yes
+751,107.325,1134,3,126,1.5,No,Gas,Hot Air,No
+752,131,1916,4,41,2.5,No,Gas,Hot Air,Yes
+753,166.9,1272,3,3,1.5,No,Gas,Hot Air,No
+754,127,960,3,39,1,Yes,Gas,Hot Air,No
+755,119,1152,2,65,1.5,No,Gas,Hot Air,No
+756,92.509,840,2,13,1,No,Gas,Hot Air,No
+757,174,2106,5,34,2,No,Gas,Hot Air,No
+758,180,1632,3,10,2,No,Gas,Hot Air,No
+759,155,1092,3,9,2,No,Gas,Hot Air,No
+760,146.5,1634,3,25,1.5,Yes,Gas,Hot Air,Yes
+761,162.5,1890,3,26,2.5,Yes,Gas,Hot Air,Yes
+762,210,2224,5,32,2.5,No,Gas,Hot Air,Yes
+763,165,1475,3,22,2,No,Electric,Electric,Yes
+764,123,1480,3,16,1.5,No,Gas,Hot Air,Yes
+765,150,1368,3,36,1,No,Gas,Hot Air,Yes
+766,128.9,1200,3,7,1,No,Gas,Hot Air,No
+767,88.1,840,2,0,1,Yes,Gas,Hot Air,No
+768,175,1176,3,54,2,No,Oil,Hot Air,No
+769,120.975,1380,3,0,2,No,Gas,Hot Air,No
+770,147.543,1786,3,0,2.5,No,Gas,Hot Air,No
+771,118,1480,3,17,1.5,No,Gas,Hot Air,No
+772,199,1574,3,13,1.5,No,Gas,Hot Water,Yes
+773,79.9,950,2,154,1.5,No,Oil,Hot Air,No
+774,279,3178,4,14,3.5,Yes,Gas,Hot Air,Yes
+775,90,1342,3,16,1.5,No,Gas,Hot Air,No
+776,91.9,1336,2,20,1.5,Yes,Electric,Electric,Yes
+777,153,1542,3,10,2.5,No,Gas,Hot Air,No
+778,170,2272,4,11,3.5,No,Oil,Hot Water,Yes
+779,145.2,1480,2,15,2.5,No,Gas,Hot Air,Yes
+780,296,2506,4,8,2.5,No,Gas,Hot Air,Yes
+781,150,1852,4,1,2,No,Oil,Hot Air,No
+782,86,1055,2,19,1,No,Gas,Hot Air,Yes
+783,118,1392,3,21,1.5,No,Gas,Hot Air,No
+784,155,1608,3,53,2,No,Oil,Hot Air,Yes
+785,222.5,1564,3,15,2,No,Gas,Hot Air,Yes
+786,250,2068,4,17,2.5,Yes,Gas,Hot Air,Yes
+787,365,2516,4,13,2.5,Yes,Oil,Hot Air,No
+788,120,1684,4,14,1.5,No,Electric,Electric,No
+789,193,1481,3,18,1.5,No,Gas,Hot Water,No
+790,85.568,999,3,67,1,No,Oil,Hot Water,No
+791,82,896,2,17,1,No,Oil,Hot Water,No
+792,225,792,2,50,1,No,Oil,Hot Water,Yes
+793,240,2747,4,34,3.5,No,Oil,Hot Water,Yes
+794,234.9,2277,4,1,2.5,Yes,Gas,Hot Air,No
+795,112,1281,2,19,2.5,Yes,Gas,Hot Air,Yes
+796,261,2462,4,14,2.5,Yes,Gas,Hot Air,Yes
+797,400,2897,4,9,2.5,Yes,Gas,Hot Air,Yes
+798,310,2672,4,4,3.5,Yes,Electric,Hot Air,Yes
+799,182,1932,3,21,1.5,No,Gas,Hot Air,No
+800,187.5,1320,3,11,2.5,No,Gas,Hot Air,No
+801,405,3296,4,6,2.5,Yes,Gas,Hot Air,Yes
+802,420,3279,4,6,3,Yes,Gas,Hot Air,Yes
+803,359,3204,4,4,2.5,Yes,Gas,Hot Air,Yes
+804,120,1217,2,16,2.5,Yes,Electric,Electric,No
+805,171.5,1782,3,37,1.5,No,Gas,Hot Water,Yes
+806,159.9,1180,2,16,1.5,Yes,Gas,Hot Air,Yes
+807,186.5,1452,3,16,2,Yes,Electric,Hot Air,Yes
+808,260,2140,4,13,2.5,Yes,Gas,Hot Air,Yes
+809,115,1219,2,16,1.5,Yes,Electric,Electric,No
+810,191,1518,4,39,1.5,No,Gas,Hot Water,Yes
+811,355.465,3328,4,0,2.5,Yes,Gas,Hot Air,Yes
+812,339.9,2344,3,10,2.5,Yes,Gas,Hot Air,No
+813,90,960,2,74,1,No,Gas,Hot Air,No
+814,245,1544,3,6,2.5,No,Gas,Hot Air,No
+815,320.9,2873,4,7,2.5,Yes,Gas,Hot Air,Yes
+816,159,1180,2,18,1.5,Yes,Gas,Hot Air,Yes
+817,174.9,1368,3,38,1.5,No,Gas,Hot Air,No
+818,293.5,1904,4,10,2.5,Yes,Gas,Hot Air,Yes
+819,210,1320,3,11,2,No,Gas,Hot Air,No
+820,182.5,1594,3,34,1.5,No,Gas,Hot Air,Yes
+821,219.9,1847,3,8,2.5,Yes,Gas,Hot Air,Yes
+822,370,3125,4,1,2.5,Yes,Gas,Hot Air,Yes
+823,286,2004,4,7,2.5,No,Gas,Hot Air,Yes
+824,169.9,1623,3,36,1.5,Yes,Gas,Hot Air,Yes
+825,161,1120,3,40,1,No,Oil,Hot Water,No
+826,287,2363,5,2,2.5,Yes,Gas,Hot Air,Yes
+827,315,2572,4,9,2.5,No,Gas,Hot Air,Yes
+828,177,1548,3,25,1.5,No,Electric,Electric,No
+829,332,2734,3,11,2.5,Yes,Gas,Hot Air,No
+830,249,1462,3,8,2,Yes,Gas,Hot Air,Yes
+831,179,1558,2,15,2.5,No,Gas,Hot Air,No
+832,150,1664,3,34,1.5,No,Oil,Hot Water,No
+833,225,1877,4,16,3,No,Gas,Hot Air,Yes
+834,182,1838,3,37,1,No,Gas,Hot Air,Yes
+835,329.9,2368,4,9,2.5,Yes,Gas,Hot Air,Yes
+836,165,2104,5,32,1.5,No,Gas,Hot Water,Yes
+837,180,1180,2,16,1.5,No,Gas,Hot Air,No
+838,321,2399,4,11,2.5,Yes,Gas,Hot Air,Yes
+839,180,1232,2,15,1.5,No,Gas,Hot Air,Yes
+840,178,1180,2,17,1.5,Yes,Gas,Hot Air,No
+841,279.9,2022,4,2,2.5,No,Gas,Hot Air,Yes
+842,179,1364,2,19,1.5,Yes,Gas,Hot Air,Yes
+843,183,1343,2,17,2.5,Yes,Gas,Hot Air,Yes
+844,500,1492,3,70,1,No,Oil,Hot Air,No
+845,170,999,3,37,1,No,Gas,Hot Water,Yes
+846,179,2102,3,24,2.5,No,Gas,Hot Air,Yes
+847,184.9,1656,3,18,1.5,No,Gas,Hot Air,Yes
+848,177.5,1561,3,18,1.5,No,Electric,Hot Air,No
+849,112.5,988,2,19,2,No,Electric,Electric,No
+850,180,1765,5,17,2,No,Gas,Hot Water,Yes
+851,10.3,912,2,20,1.5,No,Electric,Electric,Yes
+852,137.9,1592,3,17,1.5,No,Electric,Electric,No
+853,144,1344,5,54,1,No,Electric,Electric,No
+854,131.6,1385,2,17,1.5,No,Electric,Electric,Yes
+855,123.5,1385,2,17,1.5,No,Electric,Electric,No
+856,123,1679,2,17,1.5,No,Electric,Electric,No
+857,109,908,2,20,1,No,Electric,Electric,No
+858,173,1527,2,16,2,Yes,Gas,Hot Air,Yes
+859,105,912,2,20,1.5,No,Electric,Electric,No
+860,122.5,1184,2,18,1.5,No,Electric,Electric,No
+861,191,1719,3,26,1.5,No,Electric,Electric,Yes
+862,149,1080,2,19,1,No,Electric,Electric,Yes
+863,205,2118,4,16,2,No,Electric,Electric,Yes
+864,225,2527,3,16,1.5,No,Electric,Electric,No
+865,210,1592,3,15,1.5,No,Gas,Hot Air,Yes
+866,188.9,1294,3,18,1,No,Electric,Electric,No
+867,192,1974,4,33,2.5,No,Gas,Hot Water,Yes
+868,137.5,988,2,17,2,No,Electric,Electric,Yes
+869,200,1508,3,20,2,No,Gas,Hot Air,Yes
+870,126,908,2,17,1,No,Electric,Electric,No
+871,214.5,1910,4,20,2,No,Electric,Electric,Yes
+872,152,912,2,18,1.5,No,Electric,Electric,No
+873,115,912,2,20,1.5,No,Electric,Electric,No
+874,88,988,2,19,2,No,Electric,Electric,No
+875,170,1748,2,20,2,No,Electric,Electric,No
+876,137,912,2,18,1.5,No,Electric,Electric,Yes
+877,145,1385,3,17,1.5,No,Electric,Electric,No
+878,202,1300,3,15,1.5,No,Gas,Hot Air,No
+879,130,908,2,17,1,No,Electric,Electric,No
+880,265,1900,3,25,2,No,Electric,Electric,No
+881,185,2191,3,16,2.5,No,Electric,Electric,Yes
+882,130,1080,2,25,1,Yes,Gas,Hot Air,Yes
+883,190,1300,3,15,1.5,Yes,Gas,Hot Air,Yes
+884,204,2458,4,1,2.5,No,Gas,Hot Air,Yes
+885,125,1040,3,22,1,No,Electric,Electric,No
+886,349.9,2886,4,0,3,No,Gas,Hot Air,Yes
+887,142,1840,3,8,1,No,Gas,Hot Air,No
+888,132.5,1988,2,19,1,No,Electric,Electric,No
+889,220,672,2,43,1,No,Oil,Hot Air,No
+890,160,1512,2,13,2,No,Oil,Hot Air,No
+891,10.3,912,2,20,1.5,No,Electric,Electric,Yes
+892,95,912,2,19,1.5,No,Electric,Electric,No
+893,122.055,1385,2,17,1.5,No,Electric,Electric,No
+894,149,1508,3,18,1.5,No,Gas,Hot Air,Yes
+895,115,1385,2,17,1.5,No,Electric,Electric,No
+896,140,1628,3,19,2.5,No,Electric,Electric,No
+897,137.9,1592,3,17,1.5,No,Electric,Electric,No
+898,144,1344,5,54,1,No,Electric,Electric,No
+899,131.6,1385,2,17,1.5,No,Electric,Electric,Yes
+900,123.5,1385,2,17,1.5,No,Electric,Electric,No
+901,123,1679,2,17,1.5,No,Electric,Electric,No
+902,109,908,2,20,1,No,Electric,Electric,No
+903,173,1527,2,16,2,Yes,Gas,Hot Air,Yes
+904,105,912,2,20,1.5,No,Electric,Electric,No
+905,122.5,1184,2,18,1.5,No,Electric,Electric,No
+906,191,1719,3,26,1.5,No,Electric,Electric,Yes
+907,149,1080,2,19,1,No,Electric,Electric,Yes
+908,205,2118,4,16,2,No,Electric,Electric,Yes
+909,225,2527,3,16,1.5,No,Electric,Electric,No
+910,210,1592,3,15,1.5,No,Gas,Hot Air,Yes
+911,188.9,1294,3,18,1,No,Electric,Electric,No
+912,192,1974,4,33,2.5,No,Gas,Hot Water,Yes
+913,137.5,988,2,17,2,No,Electric,Electric,Yes
+914,200,1508,3,20,2,No,Gas,Hot Air,Yes
+915,126,908,2,17,1,No,Electric,Electric,No
+916,214.5,1910,4,20,2,No,Electric,Electric,Yes
+917,152,912,2,18,1.5,No,Electric,Electric,No
+918,115,912,2,20,1.5,No,Electric,Electric,No
+919,88,988,2,19,2,No,Electric,Electric,No
+920,170,1748,2,20,2,No,Electric,Electric,No
+921,137,912,2,18,1.5,No,Electric,Electric,Yes
+922,145,1385,3,17,1.5,No,Electric,Electric,No
+923,202,1300,3,15,1.5,No,Gas,Hot Air,No
+924,130,908,2,17,1,No,Electric,Electric,No
+925,265,1900,3,25,2,No,Electric,Electric,No
+926,185,2191,3,16,2.5,No,Electric,Electric,Yes
+927,130,1080,2,25,1,Yes,Gas,Hot Air,Yes
+928,190,1300,3,15,1.5,Yes,Gas,Hot Air,Yes
+929,204,2458,4,1,2.5,No,Gas,Hot Air,Yes
+930,125,1040,3,22,1,No,Electric,Electric,No
+931,349.9,2886,4,0,3,No,Gas,Hot Air,Yes
+932,142,1840,3,8,1,No,Gas,Hot Air,No
+933,132.5,1988,2,19,1,No,Electric,Electric,No
+934,220,672,2,43,1,No,Oil,Hot Air,No
+935,160,1512,2,13,2,No,Oil,Hot Air,No
+936,156.9,1635,4,52,1.5,No,Oil,Hot Air,No
+937,138,1672,4,39,1.5,No,Gas,Hot Air,No
+938,166,1892,3,26,2,Yes,Gas,Hot Air,Yes
+939,195,1652,3,18,2,No,Gas,Hot Water,Yes
+940,295.6,2513,4,21,2.5,Yes,Gas,Hot Air,Yes
+941,460,3336,4,1,3.5,Yes,Gas,Hot Air,Yes
+942,126,1302,2,17,1.5,Yes,Gas,Hot Air,Yes
+943,220.3,2006,3,16,2,Yes,Gas,Hot Air,Yes
+944,175,1836,4,27,1.5,Yes,Gas,Hot Air,Yes
+945,255,1994,3,49,2,No,Oil,Hot Air,Yes
+946,185,1652,3,19,2,No,Gas,Hot Water,Yes
+947,234,1888,3,8,2.5,No,Gas,Hot Air,Yes
+948,133.5,1480,3,19,1.5,Yes,Gas,Hot Air,Yes
+949,151,1234,2,19,2,No,Electric,Electric,Yes
+950,157.5,1778,3,31,1.5,No,Gas,Hot Air,Yes
+951,285,2514,5,23,2.5,Yes,Gas,Hot Air,Yes
+952,217.5,2700,4,35,2.5,No,Gas,Hot Water,Yes
+953,300,2330,4,21,3.5,Yes,Gas,Hot Air,Yes
+954,161.225,2676,4,33,2.5,No,Gas,Hot Water,Yes
+955,217,2180,4,25,2,Yes,Electric,Electric,Yes
+956,250,2284,4,21,2.5,Yes,Gas,Hot Air,Yes
+957,124,1314,2,19,1.5,No,Electric,Electric,No
+958,248,2396,4,35,2.5,No,Gas,Hot Air,Yes
+959,187,2088,4,45,2,No,Gas,Hot Water,Yes
+960,195,2310,5,39,2.5,No,Gas,Hot Water,Yes
+961,239.9,2040,4,19,2.5,Yes,Gas,Hot Air,Yes
+962,475,2599,3,19,2.5,Yes,Electric,Hot Air,Yes
+963,246,1702,3,16,1.5,No,Gas,Hot Water,Yes
+964,219.9,2125,4,18,2.5,No,Gas,Hot Water,Yes
+965,193.5,2310,4,38,2.5,No,Gas,Hot Water,Yes
+966,122,1431,3,31,1.5,Yes,Gas,Hot Air,No
+967,118,924,2,20,1,No,Gas,Hot Water,No
+968,125,1799,3,126,1,No,Gas,Hot Air,Yes
+969,101,976,3,23,2,No,Electric,Electric,No
+970,249,2217,4,19,2.5,Yes,Gas,Hot Air,Yes
+971,180,1969,4,102,1,No,Oil,Hot Water,Yes
+972,292.5,2376,3,19,2.5,Yes,Gas,Hot Air,Yes
+973,199.5,1585,3,18,1.5,No,Gas,Hot Water,Yes
+974,205.1,1453,4,32,2,No,Gas,Hot Air,Yes
+975,330,2973,4,12,3,Yes,Oil,Hot Air,Yes
+976,179,1612,3,37,1.5,No,Gas,Hot Air,Yes
+977,342,2734,3,4,2.5,Yes,Gas,Hot Air,Yes
+978,145,1479,3,22,1.5,Yes,Electric,Electric,Yes
+979,66,945,2,19,1,Yes,Electric,Electric,No
+980,269.9,1938,4,25,2.5,No,Gas,Hot Water,Yes
+981,154,1364,5,174,1,No,Oil,Hot Air,Yes
+982,454.9,3242,4,2,2.5,Yes,Gas,Hot Air,Yes
+983,249.9,1571,3,23,2,Yes,Gas,Hot Air,Yes
+984,165,1314,2,21,1.5,Yes,Electric,Electric,Yes
+985,329,2413,4,3,1.5,Yes,Gas,Hot Air,Yes
+986,49.387,900,2,56,1,No,Oil,Hot Air,Yes
+987,445,3157,4,0,3.5,Yes,Gas,Hot Air,Yes
+988,73,908,2,102,1,No,Oil,Hot Water,Yes
+989,125,924,2,20,1,No,Electric,Electric,No
+990,146.5,1138,2,18,1,Yes,Electric,Electric,Yes
+991,209,2310,5,38,2.5,No,Gas,Hot Water,Yes
+992,196.5,1874,4,30,2,No,Gas,Hot Air,Yes
+993,157,1228,4,20,1.5,No,Electric,Electric,No
+994,125.5,1479,3,19,1.5,Yes,Gas,Hot Air,Yes
+995,190,1612,3,38,1.5,No,Gas,Hot Air,No
+996,250,2088,4,22,2.5,Yes,Electric,Electric,Yes
+997,255,2131,4,4,2.5,No,Gas,Hot Air,Yes
+998,129.7,924,2,20,1,No,Gas,Hot Air,Yes
+999,65,1692,4,74,1.5,No,Electric,Electric,No
+1000,107,1568,3,82,1,No,Gas,Hot Air,No
+1001,255,2262,4,35,2.5,Yes,Gas,Hot Air,Yes
+1002,398,2960,4,8,2.5,Yes,Gas,Hot Air,Yes
+1003,176,1683,4,31,2.5,No,Gas,Hot Water,Yes
+1004,249.9,2680,5,36,3.5,Yes,Gas,Hot Water,Yes
+1005,244.9,2742,3,26,3,No,Oil,Hot Air,Yes
+1006,220,2012,4,30,2.5,No,Gas,Hot Water,Yes
+1007,241,2702,5,31,1.5,No,Gas,Hot Air,Yes
+1008,159.9,1314,2,21,1.5,Yes,Gas,Hot Air,Yes
+1009,177.555,1672,3,38,1.5,No,Gas,Hot Air,Yes
+1010,95,1200,2,55,1,No,Oil,Hot Air,No
+1011,5,1700,3,4,2.5,Yes,Gas,Hot Air,Yes
+1012,264.9,2652,5,40,3.5,No,Gas,Hot Water,Yes
+1013,315,3062,4,16,2.5,Yes,Gas,Hot Water,Yes
+1014,155,1290,2,25,1.5,Yes,Gas,Hot Air,Yes
+1015,130,1012,3,23,2,No,Electric,Electric,No
+1016,238,2310,4,35,2.5,No,Gas,Hot Water,Yes
+1017,224,2026,3,31,2.5,No,Gas,Hot Air,Yes
+1018,211,1404,3,18,1,Yes,Gas,Hot Air,No
+1019,279,1782,3,13,1,Yes,Gas,Hot Air,No
+1020,242,2002,3,15,2.5,Yes,Gas,Hot Air,Yes
+1021,199.875,1782,4,36,1.5,Yes,Gas,Hot Air,Yes
+1022,259.9,2212,4,11,2.5,Yes,Oil,Hot Air,Yes
+1023,200,1872,4,84,1,Yes,Oil,Electric,No
+1024,212,1804,4,36,2.5,No,Gas,Hot Water,Yes
+1025,230,1910,3,41,2.5,No,Gas,Hot Water,Yes
+1026,189,1632,3,28,1.5,Yes,Gas,Hot Air,Yes
+1027,313.635,3824,3,16,4,Yes,Gas,Hot Air,Yes
+1028,185,1196,3,32,1.5,No,Gas,Hot Air,No
+1029,239.9,2259,4,30,2.5,Yes,Gas,Hot Water,Yes
+1030,202,1690,3,39,2,Yes,Gas,Hot Water,Yes
+1031,155,1227,2,19,2,Yes,Gas,Hot Water,Yes
+1032,120,1278,3,57,1,No,Gas,Hot Air,Yes
+1033,78,668,1,77,1,No,Oil,Hot Air,No
+1034,311,2762,4,17,2.5,Yes,Gas,Hot Water,Yes
+1035,198,1558,3,38,1,No,Gas,Hot Air,Yes
+1036,158.5,1352,3,11,2,No,Electric,Electric,No
+1037,227,1920,5,37,2.5,No,Gas,Hot Water,Yes
+1038,265.9,1940,3,6,2.5,No,Gas,Hot Air,Yes
+1039,163,1249,3,30,1.5,No,Gas,Hot Air,No
+1040,165,1576,3,27,2.5,No,Gas,Hot Water,No
+1041,151,1419,3,30,1.5,Yes,Gas,Hot Air,No
+1042,200,1700,3,4,2.5,Yes,Gas,Hot Air,Yes
+1043,299.9,2748,4,15,3.5,Yes,Gas,Hot Air,Yes
+1044,210,1792,3,18,2.5,Yes,Gas,Hot Air,Yes
+1045,220,1724,3,36,1.5,No,Electric,Electric,No
+1046,326.9,2692,3,15,3.5,Yes,Gas,Hot Air,Yes
+1047,204.9,1734,4,29,2.5,No,Oil,Hot Water,Yes
+1048,234,2014,3,32,1.5,No,Gas,Hot Air,Yes
+1049,236,2056,4,36,1.5,No,Gas,Hot Air,Yes
+1050,124,1745,4,36,1.5,No,Gas,Hot Air,No
+1051,199.1,1352,2,13,1.5,Yes,Gas,Hot Air,Yes
+1052,245,2259,4,30,2.5,No,Gas,Hot Water,Yes
+1053,264,2572,3,33,2.5,No,Gas,Hot Air,Yes
+1054,105,924,2,18,1,No,Electric,Electric,Yes
+1055,187,2000,3,21,1.5,Yes,Gas,Hot Air,No
+1056,127,929,2,21,1.5,Yes,Gas,Hot Air,No
+1057,100,1540,4,42,1,No,Oil,Hot Air,No
+1058,251,1730,3,44,2,Yes,Oil,Hot Air,Yes
+1059,105,1500,3,50,1,No,Oil,Hot Water,Yes
+1060,431.25,2522,4,10,2.5,Yes,Gas,Hot Air,Yes
+1061,149.9,1479,3,19,1.5,Yes,Electric,Electric,Yes
+1062,180,1922,4,36,1.5,Yes,Gas,Hot Air,Yes
+1063,123.5,1215,2,20,1.5,No,Gas,Hot Air,Yes
+1064,253,2772,5,33,3,Yes,Gas,Hot Air,Yes
+1065,330,2574,4,6,2.5,No,Gas,Hot Air,No
+1066,124.5,945,2,21,1,No,Electric,Electric,No
+1067,424.2,2914,4,19,3.5,Yes,Gas,Hot Air,Yes
+1068,120,1480,3,19,1.5,Yes,Electric,Electric,No
+1069,205,1914,3,32,1.5,No,Gas,Hot Air,Yes
+1070,175,1354,3,27,2,Yes,Gas,Hot Air,Yes
+1071,295,2302,4,4,2.5,Yes,Gas,Hot Air,Yes
+1072,156.5,1234,2,19,2,Yes,Electric,Electric,Yes
+1073,143,1480,3,18,1.5,Yes,Electric,Electric,No
+1074,215,1665,4,27,2,Yes,Gas,Hot Air,Yes
+1075,287,2182,3,6,2.5,No,Gas,Hot Air,Yes
+1076,122.5,924,2,18,1,No,Electric,Electric,Yes
+1077,180,1220,3,19,2,No,Electric,Electric,No
+1078,143,1480,3,18,1.5,Yes,Electric,Electric,No
+1079,137,1375,2,21,1.5,No,Electric,Electric,Yes
+1080,271,2003,3,22,2.5,Yes,Gas,Hot Air,Yes
+1081,129.9,1480,2,15,2.5,Yes,Gas,Hot Air,Yes
+1082,133,1480,3,15,1.5,Yes,Gas,Hot Air,No
+1083,179,1456,3,11,1,Yes,Gas,Hot Air,No
+1084,302,1888,3,5,2.5,No,Gas,Hot Air,Yes
+1085,168,1112,3,28,1,No,Oil,Hot Air,No
+1086,120,1480,2,16,1.5,No,Gas,Hot Air,Yes
+1087,119,1480,2,15,2.5,Yes,Electric,Hot Air,Yes
+1088,168,1836,3,27,2,Yes,Gas,Hot Water,No
+1089,124.9,1522,4,96,2,No,Oil,Hot Water,No
+1090,415,2709,3,1,2.5,Yes,Gas,Hot Air,Yes
+1091,150,1020,3,10,2,Yes,Oil,Hot Air,No
+1092,310,2208,4,20,2,No,Gas,Hot Water,Yes
+1093,157,1368,3,18,1,No,Electric,Electric,No
+1094,205,2488,4,28,2.5,No,Gas,Hot Air,Yes
+1095,275,1865,3,7,2.5,No,Gas,Hot Air,No
+1096,320,3174,4,10,4,Yes,Gas,Hot Air,No
+1097,380,2944,5,17,2.5,Yes,Gas,Hot Air,Yes
+1098,119.9,960,3,23,1,No,Gas,Hot Air,No
+1099,345,3142,4,15,2.5,No,Gas,Hot Air,Yes
+1100,145,1666,4,32,2,No,Oil,Hot Air,Yes
+1101,123,708,2,77,1,No,Oil,Hot Air,Yes
+1102,202.5,1598,3,17,2,Yes,Oil,Hot Air,Yes
+1103,182,1564,3,13,2,Yes,Gas,Hot Air,Yes
+1104,175,1224,3,14,1.5,No,Gas,Hot Air,No
+1105,132.5,1379,3,77,1,No,Gas,Hot Air,No
+1106,239,2310,4,41,2.5,No,Gas,Hot Water,Yes
+1107,86.125,960,2,14,1.5,No,Gas,Hot Water,No
+1108,245,960,3,16,1,No,Electric,Electric,No
+1109,229.9,1820,4,52,2.5,No,Gas,Hot Water,Yes
+1110,129,1632,3,95,2,No,Oil,Hot Water,No
+1111,200,1594,2,90,2,No,Gas,Hot Air,No
+1112,144.2,1290,3,16,2,No,Oil,Hot Water,No
+1113,166,1560,3,11,1.5,No,Gas,Hot Air,No
+1114,178,1453,4,46,1.5,No,Oil,Hot Air,Yes
+1115,165,1664,3,40,2,No,Oil,Hot Water,Yes
+1116,218,2169,3,18,2.5,Yes,Electric,Electric,Yes
+1117,175,1420,3,9,1,No,Gas,Hot Air,No
+1118,145,1441,3,71,1.5,No,Gas,Hot Air,No
+1119,195,1016,3,4,1.5,No,Gas,Hot Air,No
+1120,288.139,2947,4,0,2.5,No,Gas,Hot Air,Yes
+1121,187.5,1652,3,11,1.5,No,Oil,Hot Air,No
+1122,255,1927,3,105,1.5,No,Oil,Hot Air,No
+1123,145,960,3,11,1,No,Gas,Hot Air,No
+1124,183,1804,3,28,1.5,No,Electric,Electric,Yes
+1125,318.31,2616,4,1,2.5,No,Gas,Hot Air,Yes
+1126,192.5,1116,2,42,1.5,No,Oil,Hot Air,No
+1127,195,2147,2,52,1.5,No,Oil,Hot Water,Yes
+1128,138,876,2,36,1.5,No,Oil,Hot Air,Yes
+1129,230,2102,4,26,2.5,No,Electric,Electric,Yes
+1130,237.5,1776,3,15,1.5,No,Oil,Hot Air,Yes
+1131,375,1996,3,3,3,Yes,Gas,Hot Water,Yes
+1132,105,1759,3,165,1,No,Gas,Hot Air,No
+1133,168,1014,3,10,1,No,Gas,Hot Air,No
+1134,221,2270,4,5,2.5,No,Gas,Hot Water,No
+1135,135,1548,3,85,1.5,No,Oil,Hot Air,No
+1136,129.9,1620,3,3,2,No,Gas,Hot Air,No
+1137,344.1,2608,4,40,2.5,Yes,Gas,Hot Air,Yes
+1138,112,1080,3,15,2,No,Electric,Electric,No
+1139,380,1140,3,76,2,Yes,Gas,Hot Air,No
+1140,125,1152,3,34,1,No,Gas,Hot Air,No
+1141,145,1056,2,20,1,No,Electric,Electric,No
+1142,190,1257,3,2,2,No,Gas,Electric,No
+1143,135,936,2,25,1.5,No,Gas,Hot Water,Yes
+1144,58.5,1140,3,30,1.5,No,Electric,Electric,No
+1145,80.5,960,2,14,1.5,No,Gas,Hot Water,No
+1146,150.41,1058,2,6,1.5,No,Gas,Hot Air,No
+1147,170,768,2,29,1,No,Electric,Electric,No
+1148,242.551,2048,4,14,2.5,No,Oil,Hot Air,Yes
+1149,176.5,1198,2,7,2,No,Gas,Hot Air,Yes
+1150,212,2430,4,27,1,Yes,Electric,Electric,No
+1151,135,918,3,35,1,No,Oil,Hot Water,No
+1152,215,2722,4,46,1.5,Yes,Oil,Hot Air,Yes
+1153,262,2364,4,0,2.5,No,Gas,Hot Air,Yes
+1154,155,1440,3,15,1,No,Oil,Hot Water,No
+1155,207,1744,3,27,1,No,Oil,Hot Air,No
+1156,185,2280,4,105,1.5,No,Oil,Hot Water,No
+1157,92.2,1736,3,130,2,No,Oil,Hot Water,No
+1158,111,883,1,95,1,No,Oil,Hot Air,No
+1159,97,1001,2,145,1,No,Gas,Hot Water,No
+1160,200,1296,3,34,1,No,Oil,Hot Water,No
+1161,230,2304,3,14,2.5,No,Electric,Electric,Yes
+1162,299.9,2076,3,13,2.5,No,Gas,Hot Air,Yes
+1163,183.855,1468,4,51,1,No,Oil,Hot Air,No
+1164,174.9,1272,3,50,1.5,No,Gas,Hot Water,Yes
+1165,335,1900,3,11,2.5,Yes,Oil,Hot Air,Yes
+1166,208,1548,3,53,1.5,No,Oil,Hot Water,No
+1167,380,2212,4,35,1.5,No,Electric,Electric,Yes
+1168,289.9,2376,4,0,2.5,No,Gas,Hot Air,Yes
+1169,188,1712,3,33,1.5,Yes,Oil,Hot Air,Yes
+1170,600,2660,4,1,3.5,Yes,Gas,Hot Air,Yes
+1171,262,1487,3,5,3,Yes,Oil,Hot Water,No
+1172,220,1532,3,30,1.5,No,Electric,Electric,Yes
+1173,275,2486,4,21,2.5,Yes,Gas,Hot Air,Yes
+1174,215,1918,3,25,2,No,Gas,Hot Air,No
+1175,100,1270,3,47,1,No,Oil,Hot Water,No
+1176,158.5,1406,2,19,1.5,No,Electric,Electric,No
+1177,148.9,1385,2,18,1.5,No,Electric,Electric,No
+1178,218,1300,3,16,1.5,No,Gas,Hot Air,No
+1179,355.84,3259,4,0,2.5,No,Gas,Hot Air,Yes
+1180,168,1536,3,9,1.5,Yes,Gas,Hot Air,No
+1181,171,1636,4,14,1.5,No,Oil,Hot Air,Yes
+1182,195,1944,3,15,1.5,No,Gas,Hot Air,Yes
+1183,201.88,1676,3,19,2,No,Gas,Hot Air,Yes
+1184,145,1040,3,12,1,Yes,Gas,Hot Air,No
+1185,206,1800,3,13,2.5,Yes,Gas,Hot Air,Yes
+1186,78,1394,3,85,1.5,No,Oil,Hot Air,Yes
+1187,320.9,1885,2,5,2,No,Oil,Hot Water,Yes
+1188,159,1056,3,1,2,No,Oil,Hot Water,No
+1189,180,1593,3,38,1.5,No,Gas,Hot Air,No
+1190,129.9,1436,4,125,1,No,Oil,Hot Water,No
+1191,150,1668,4,34,1.5,No,Gas,Hot Air,Yes
+1192,171.134,1302,3,35,2,No,Gas,Hot Air,No
+1193,151,1239,3,33,1,Yes,Gas,Hot Air,Yes
+1194,100,840,2,85,1,No,Oil,Hot Water,No
+1195,655,780,2,55,1.5,No,Gas,Hot Air,No
+1196,243.5,1728,3,3,2.5,Yes,Gas,Hot Air,No
+1197,265,1666,3,140,1,No,Gas,Hot Air,No
+1198,400,2022,3,4,2.5,Yes,Gas,Hot Air,Yes
+1199,272.8,2225,4,46,2,No,Gas,Hot Air,Yes
+1200,255,1023,2,115,1,No,Gas,Hot Air,No
+1201,220,1290,2,17,1.5,Yes,Electric,Electric,No
+1202,775,3968,5,31,3.5,Yes,Gas,Hot Air,Yes
+1203,233,1699,4,129,1,No,Gas,Hot Water,No
+1204,216.977,2137,4,27,1,No,Gas,Hot Water,No
+1205,245,1428,2,5,2.5,Yes,Gas,Hot Air,Yes
+1206,159,936,3,35,1,Yes,Gas,Hot Air,No
+1207,725,2586,4,3,3,Yes,Gas,Hot Air,Yes
+1208,268.3,1373,3,6,2,No,Gas,Hot Air,Yes
+1209,159,1272,3,33,1,No,Gas,Hot Air,No
+1210,155,1368,3,33,2,Yes,Gas,Hot Air,Yes
+1211,345,2120,4,18,2.5,Yes,Gas,Hot Air,Yes
+1212,165.2,1279,2,34,1,No,Gas,Hot Air,No
+1213,185,1104,2,35,1,Yes,Gas,Hot Air,No
+1214,225.5,1092,3,41,1,No,Gas,Hot Water,Yes
+1215,420,2247,4,121,2,No,Gas,Hot Water,No
+1216,220,1146,4,53,1.5,No,Gas,Hot Water,No
+1217,620,3250,3,23,2.5,No,Gas,Hot Air,Yes
+1218,260,1920,4,18,2.5,Yes,Gas,Hot Air,Yes
+1219,359.9,1932,3,0,2,No,Gas,Hot Air,Yes
+1220,375,1620,3,4,2.5,Yes,Gas,Hot Air,No
+1221,302.9,1640,3,50,1,No,Gas,Hot Water,No
+1222,175,1040,5,39,1.5,No,Gas,Hot Air,No
+1223,260,1676,4,37,2,Yes,Oil,Hot Air,No
+1224,270,1991,3,16,2.5,Yes,Gas,Hot Air,Yes
+1225,485,1908,4,17,3.5,Yes,Gas,Hot Air,Yes
+1226,200,966,3,85,1,No,Oil,Hot Air,No
+1227,367,1815,2,19,2.5,Yes,Gas,Hot Air,Yes
+1228,175,1664,3,32,1,No,Gas,Hot Air,No
+1229,203,1216,2,19,2,Yes,Gas,Hot Air,Yes
+1230,170,1564,3,33,2,Yes,Gas,Hot Air,No
+1231,375,2752,4,32,2.5,Yes,Gas,Hot Air,Yes
+1232,159.9,936,3,35,1,No,Gas,Hot Air,No
+1233,230,1617,4,95,1.5,No,Gas,Hot Air,No
+1234,375,1452,3,69,2,No,Gas,Hot Water,Yes
+1235,421,1911,3,5,2.5,Yes,Gas,Hot Air,Yes
+1236,218,1580,3,31,1.5,Yes,Gas,Hot Air,No
+1237,167.85,1920,3,34,1,Yes,Gas,Hot Air,Yes
+1238,252.5,1155,4,80,1.5,No,Gas,Hot Water,No
+1239,650,3770,4,3,2.5,Yes,Gas,Hot Air,Yes
+1240,380,1675,2,18,2.5,Yes,Gas,Hot Air,Yes
+1241,214.5,912,3,33,1,No,Gas,Hot Air,No
+1242,218.5,1510,3,115,1,No,Gas,Hot Water,No
+1243,174,864,2,35,1,Yes,Gas,Hot Air,No
+1244,225,1600,4,35,2,Yes,Gas,Hot Air,No
+1245,309.75,1744,3,15,2.5,Yes,Gas,Hot Air,Yes
+1246,658.3,3208,4,3,2.5,Yes,Gas,Hot Air,Yes
+1247,203,1290,2,16,1.5,Yes,Gas,Hot Air,No
+1248,375,1900,2,19,2.5,Yes,Gas,Hot Air,Yes
+1249,62.5,2808,3,25,1,No,Oil,Hot Air,No
+1250,205,1576,3,18,1.5,No,Gas,Hot Air,No
+1251,84.5,1118,3,135,1,No,Gas,Hot Water,No
+1252,280.5,1752,3,8,2,Yes,Gas,Hot Air,Yes
+1253,182,1753,3,32,1.5,No,Electric,Electric,No
+1254,571,2186,3,14,2.5,Yes,Gas,Hot Air,No
+1255,168,1800,2,35,1,No,Gas,Hot Air,No
+1256,354,2462,5,30,2.5,Yes,Gas,Hot Air,Yes
+1257,238,1286,5,50,2,No,Gas,Hot Water,No
+1258,182,1337,3,35,1,Yes,Gas,Hot Air,No
+1259,218.5,1170,2,5,2.5,No,Gas,Hot Air,Yes
+1260,227.5,1185,3,53,1,No,Gas,Hot Air,No
+1261,375,2424,4,19,2.5,Yes,Gas,Hot Air,Yes
+1262,399.9,1828,3,125,1.5,No,Gas,Hot Water,No
+1263,360,2176,4,41,2.5,Yes,Electric,Electric,Yes
+1264,412.5,2000,3,4,2.5,Yes,Gas,Hot Air,Yes
+1265,268.5,1340,3,10,2.5,Yes,Gas,Hot Air,Yes
+1266,300.3,1208,3,52,1,No,Gas,Hot Air,No
+1267,382.5,2244,4,2,2.5,Yes,Gas,Hot Air,Yes
+1268,189,1592,3,31,1.5,No,Gas,Hot Air,Yes
+1269,295,1831,3,17,2.5,Yes,Gas,Hot Air,Yes
+1270,220,1093,2,37,1.5,No,Gas,Hot Water,Yes
+1271,223,1460,2,110,1,No,Gas,Hot Water,No
+1272,399,2128,3,152,1.5,No,Gas,Hot Water,Yes
+1273,169.48,1368,3,30,1,No,Gas,Hot Air,No
+1274,347.75,2200,3,1,2.5,Yes,Gas,Hot Air,Yes
+1275,455,2310,2,23,3,Yes,Gas,Hot Air,Yes
+1276,249.9,1776,3,12,2.5,Yes,Gas,Hot Air,Yes
+1277,250,1852,3,8,2.5,Yes,Electric,Electric,No
+1278,265,1092,2,42,2,Yes,Gas,Hot Air,No
+1279,670,2247,4,121,2,No,Gas,Hot Water,No
+1280,195,1311,3,19,1.5,Yes,Gas,Hot Air,No
+1281,360,1392,3,4,2.5,Yes,Gas,Hot Air,No
+1282,175,1116,4,33,1.5,Yes,Gas,Hot Air,No
+1283,166.5,812,2,115,1,No,Gas,Hot Air,No
+1284,190.1,1872,4,27,2.5,No,Gas,Hot Air,Yes
+1285,180.5,1248,3,8,2,Yes,Electric,Hot Air,No
+1286,440,1702,2,3,2,No,Gas,Hot Water,No
+1287,170,1346,2,57,1,No,Oil,Hot Water,Yes
+1288,220,1596,3,20,2,No,Gas,Hot Water,Yes
+1289,70.5,884,3,57,1,No,Gas,Hot Air,No
+1290,65,814,2,137,1,No,Gas,Hot Air,No
+1291,127.5,720,2,71,1,No,Gas,Hot Air,No
+1292,155,2051,3,28,1,No,Electric,Electric,No
+1293,255.5,1590,2,11,2,Yes,Oil,Hot Air,Yes
+1294,136,1202,3,39,1,No,Electric,Electric,No
+1295,204,2016,3,16,1.5,No,Oil,Hot Water,No
+1296,200,1274,3,6,2,No,Gas,Hot Air,Yes
+1297,163,960,3,40,1,No,Oil,Hot Air,No
+1298,149.35,1056,3,47,1,Yes,Gas,Hot Air,No
+1299,235,1820,3,12,3.5,Yes,Oil,Hot Air,No
+1300,260,2486,4,27,2.5,No,Gas,Hot Air,Yes
+1301,210,1890,3,27,2.5,Yes,Gas,Hot Air,No
+1302,159.9,1274,4,84,1,No,Oil,Hot Water,Yes
+1303,209,1716,4,14,2,Yes,Oil,Hot Air,No
+1304,135,1336,2,22,1.5,Yes,Electric,Electric,Yes
+1305,200,1392,3,45,1,No,Gas,Hot Air,No
+1306,432.6,2346,4,1,2.5,Yes,Gas,Hot Air,No
+1307,195,1475,3,19,1.5,No,Gas,Hot Air,No
+1308,165,1248,3,16,2,No,Electric,Electric,No
+1309,198,1920,4,16,2.5,Yes,Electric,Electric,Yes
+1310,219,2040,4,2,2.5,No,Oil,Hot Air,No
+1311,430,2649,3,15,3,No,Electric,Electric,Yes
+1312,120,1500,3,105,1,No,Oil,Hot Air,No
+1313,373.735,3163,4,1,2.5,Yes,Gas,Hot Air,Yes
+1314,183.853,1343,2,18,1.5,Yes,Gas,Hot Air,Yes
+1315,213.5,1573,3,17,2,Yes,Gas,Hot Air,Yes
+1316,155,1270,3,18,1.5,Yes,Electric,Electric,Yes
+1317,197,1316,3,14,1.5,No,Gas,Hot Air,No
+1318,392.499,3092,4,11,2.5,Yes,Gas,Hot Air,Yes
+1319,229.9,1328,3,7,2.5,No,Gas,Hot Air,Yes
+1320,289.25,2560,4,14,2.5,No,Oil,Hot Water,Yes
+1321,189.9,1343,2,17,2.5,Yes,Gas,Hot Air,Yes
+1322,397.2,3250,4,1,3,Yes,Gas,Hot Air,Yes
+1323,389.405,3086,3,1,2.5,Yes,Gas,Hot Air,Yes
+1324,135,1080,2,155,1,No,Oil,Hot Water,Yes
+1325,174,1120,2,16,1.5,Yes,Gas,Hot Air,Yes
+1326,525,2876,5,1,3.5,Yes,Gas,Hot Air,Yes
+1327,135,1281,2,19,2.5,Yes,Electric,Electric,No
+1328,412,2900,4,9,2.5,Yes,Gas,Hot Air,Yes
+1329,186,1512,2,18,1.5,Yes,Gas,Hot Air,Yes
+1330,453.935,2879,4,1,2.5,Yes,Gas,Hot Air,Yes
+1331,355,2537,4,3,2,Yes,Gas,Hot Air,Yes
+1332,186,1056,3,37,1,No,Gas,Hot Water,No
+1333,197,1296,2,16,1.5,No,Gas,Hot Air,Yes
+1334,180,1512,2,18,1.5,Yes,Electric,Electric,Yes
+1335,178,1338,3,27,2,No,Oil,Hot Air,Yes
+1336,305,2368,4,10,2.5,Yes,Gas,Hot Air,Yes
+1337,262,1528,3,8,2.5,Yes,Gas,Hot Air,No
+1338,225,1857,4,27,2.5,Yes,Gas,Hot Air,Yes
+1339,403.04,3320,4,0,2.5,Yes,Gas,Hot Air,Yes
+1340,388.5,2227,4,14,2.5,Yes,Gas,Hot Air,Yes
+1341,417,2742,4,6,2.5,Yes,Gas,Hot Air,Yes
+1342,410,2988,5,9,2.5,No,Gas,Hot Air,Yes
+1343,170,1656,3,17,1.5,Yes,Gas,Hot Air,Yes
+1344,295,1760,3,9,2.5,No,Gas,Hot Air,Yes
+1345,216,1702,4,39,1.5,No,Gas,Hot Air,Yes
+1346,221.649,1682,3,38,1.5,No,Gas,Hot Water,Yes
+1347,199.9,1180,2,17,1.5,Yes,Gas,Hot Air,Yes
+1348,463,2885,4,3,2.5,Yes,Gas,Hot Air,Yes
+1349,146.5,1281,2,20,2.5,Yes,Electric,Electric,No
+1350,225,1596,3,18,2,Yes,Gas,Hot Air,Yes
+1351,160,1184,3,21,2,No,Electric,Electric,No
+1352,275.055,2745,4,1,3,Yes,Gas,Hot Air,Yes
+1353,315.513,2680,4,1,2.5,Yes,Gas,Hot Air,Yes
+1354,323.759,2483,3,1,2.5,No,Gas,Hot Air,Yes
+1355,167.5,1188,3,19,1,No,Oil,Hot Air,No
+1356,272.699,2366,4,1,3,Yes,Gas,Hot Air,Yes
+1357,177.5,1508,3,19,1.5,No,Gas,Hot Air,Yes
+1358,128,792,2,50,1,No,Oil,Hot Water,No
+1359,317.105,3285,4,1,2.5,No,Gas,Hot Air,Yes
+1360,144.5,1673,2,18,2,No,Gas,Electric,No
+1361,260,2000,4,7,2.5,No,Gas,Hot Air,No
+1362,244,1561,3,18,1.5,No,Electric,Electric,Yes
+1363,287.989,2828,4,1,3,Yes,Gas,Hot Air,Yes
+1364,159,1592,3,18,1.5,No,Electric,Electric,No
+1365,167,1184,3,18,2,No,Electric,Electric,No
+1366,348,1708,2,14,2,Yes,Oil,Hot Air,Yes
+1367,140,1276,2,26,2,Yes,Electric,Hot Air,Yes
+1368,145,1184,2,20,1.5,No,Electric,Electric,No
+1369,150.45,908,2,21,1,No,Electric,Electric,No
+1370,230,1612,3,15,2,No,Gas,Hot Water,Yes
+1371,147.423,912,2,19,1.5,No,Electric,Electric,Yes
+1372,223,1508,3,17,1.5,No,Electric,Electric,Yes
+1373,167.5,1492,3,18,2.5,No,Electric,Electric,No
+1374,299,874,3,25,1,No,Electric,Electric,Yes
+1375,235.9,1573,4,33,2.5,No,Gas,Hot Water,Yes
+1376,147,1227,3,115,1,No,Gas,Hot Air,Yes
+1377,305,2494,3,13,2.5,No,Gas,Hot Air,Yes
+1378,154,912,2,21,1.5,No,Electric,Electric,No
+1379,149,988,2,20,1,No,Electric,Electric,No
+1380,300.279,2762,4,1,3,No,Gas,Hot Air,Yes
+1381,278,2625,4,33,2.5,No,Gas,Hot Water,Yes
+1382,202,1222,2,28,1,No,Electric,Electric,No
+1383,328.463,3144,4,1,2.5,Yes,Gas,Hot Air,Yes
+1384,185,1173,3,16,1,No,Gas,Hot Air,Yes
+1385,128,908,2,21,1,No,Electric,Electric,No
+1386,335,2274,4,16,2.5,Yes,Gas,Hot Water,Yes
+1387,148.9,908,2,18,1,No,Gas,Electric,No
+1388,229.9,1540,3,16,1.5,No,Gas,Hot Air,No
+1389,215,1196,4,28,2,No,Gas,Hot Air,Yes
+1390,253,1780,3,16,1.5,No,Gas,Hot Air,Yes
+1391,304.065,2670,4,1,3,No,Gas,Hot Air,Yes
+1392,222,1581,3,26,1.5,No,Gas,Hot Air,Yes
+1393,165,1592,3,18,1.5,No,Electric,Electric,No
+1394,275,2011,4,14,2.5,Yes,Gas,Hot Air,Yes
+1395,325,1391,2,105,1,No,Electric,Electric,Yes
+1396,406,2636,4,15,2.5,Yes,Gas,Hot Air,Yes
+1397,230,1656,3,19,1.5,No,Electric,Electric,Yes
+1398,125,1518,3,130,1,No,Gas,Hot Air,No
+1399,148,1182,3,84,1.5,No,Oil,Hot Air,Yes
+1400,279,1836,3,9,2.5,Yes,Gas,Hot Air,No
+1401,250,1529,2,14,2,Yes,Gas,Hot Air,Yes
+1402,314.94,2715,4,0,3,No,Gas,Hot Air,Yes
+1403,165.9,1184,2,21,1.5,No,Electric,Electric,No
+1404,150,1120,3,14,1.5,No,Oil,Hot Air,No
+1405,133,1008,3,15,1,No,Gas,Hot Air,No
+1406,155,1008,3,18,1,No,Electric,Electric,No
+1407,220,2077,3,57,2,No,Oil,Hot Air,Yes
+1408,229,1572,3,26,1.5,No,Electric,Electric,No
+1409,177,1874,4,34,1.5,No,Oil,Hot Water,No
+1410,120,768,2,50,1,No,Gas,Hot Air,No
+1411,195,1552,3,3,2.5,No,Gas,Hot Air,Yes
+1412,315.371,2331,4,1,2.5,No,Gas,Hot Air,Yes
+1413,137,960,2,48,1,No,Gas,Hot Air,No
+1414,225.7,1720,3,19,1.5,No,Electric,Electric,No
+1415,204.9,1437,3,20,1.5,No,Electric,Electric,No
+1416,189.5,1510,3,19,2,Yes,Oil,Hot Air,No
+1417,374,3021,4,21,2.5,No,Electric,Electric,Yes
+1418,319,1960,4,12,2.5,No,Gas,Hot Water,No
+1419,294.1,2112,3,11,2.5,No,Gas,Hot Water,Yes
+1420,440.76,2917,4,0,3,Yes,Gas,Hot Air,Yes
+1421,128,912,2,21,1.5,No,Electric,Electric,Yes
+1422,239.505,2244,3,1,2.5,No,Gas,Hot Air,Yes
+1423,141.7,1202,2,18,1.5,No,Electric,Electric,No
+1424,215.5,2601,4,19,2.5,Yes,Gas,Hot Air,Yes
+1425,320.21,2492,3,1,2.5,No,Gas,Hot Air,Yes
+1426,273.495,2680,4,1,2.5,No,Gas,Hot Air,No
+1427,256.35,2271,3,1,2.5,No,Gas,Hot Air,Yes
+1428,255,2012,3,17,3,No,Electric,Electric,Yes
+1429,124,920,3,13,1,No,Electric,Electric,No
+1430,293,2111,3,5,2,Yes,Gas,Hot Air,Yes
+1431,147,1184,3,20,2,No,Gas,Hot Water,Yes
+1432,284.595,2627,4,1,3,No,Gas,Hot Air,Yes
+1433,342.269,2641,4,1,3,No,Gas,Hot Air,Yes
+1434,229,1736,3,25,1.5,No,Gas,Hot Water,Yes
+1435,216.9,1656,3,19,1.5,No,Electric,Electric,Yes
+1436,164.9,1168,3,22,1.5,No,Electric,Electric,Yes
+1437,149,1385,2,18,1.5,No,Gas,Hot Air,Yes
+1438,150,969,2,85,1,No,Oil,Hot Air,No
+1439,214.99,1508,3,17,1.5,No,Gas,Hot Water,Yes
+1440,173,1602,2,26,1.5,Yes,Gas,Hot Air,Yes
+1441,149.9,912,2,19,1.5,No,Electric,Electric,Yes
+1442,155,1128,2,18,1.5,No,Electric,Electric,No
+1443,170,1514,3,18,1.5,No,Electric,Electric,Yes
+1444,237.5,1535,3,19,2,No,Electric,Hot Water,No
+1445,297.065,2722,4,1,3,No,Gas,Hot Air,No
+1446,342.202,2711,4,1,2.5,Yes,Gas,Hot Air,Yes
+1447,345.264,3020,4,1,3,Yes,Gas,Hot Air,Yes
+1448,325.046,2712,4,1,2.5,No,Gas,Hot Air,No
+1449,367,2556,4,19,2.5,Yes,Electric,Electric,Yes
+1450,159.9,1184,3,21,2,No,Electric,Electric,No
+1451,145,912,2,21,1.5,No,Gas,Hot Air,Yes
+1452,272.5,2212,4,18,2.5,Yes,Gas,Hot Air,Yes
+1453,163.255,1602,2,25,1.5,Yes,Gas,Hot Air,Yes
+1454,319,3285,4,1,3,No,Gas,Hot Air,Yes
+1455,160.6,1406,2,20,1.5,No,Electric,Electric,No
+1456,246,1472,3,20,2,Yes,Gas,Hot Air,Yes
+1457,153,1072,2,57,1,No,Oil,Hot Air,No
+1458,295,2504,5,15,2.5,No,Gas,Hot Air,Yes
+1459,159,1184,2,18,1.5,No,Electric,Electric,No
+1460,148.4,912,2,20,1.5,No,Electric,Electric,Yes
+1461,311,2120,3,10,2.5,Yes,Gas,Hot Air,No
+1462,314,3344,4,1,3.5,No,Gas,Hot Air,Yes
+1463,250,2243,3,25,2.5,Yes,Electric,Hot Air,Yes
+1464,149,908,2,21,1,No,Electric,Electric,No
+1465,307.89,2714,4,1,3,No,Gas,Hot Air,No
+1466,223,1360,3,18,1.5,No,Electric,Electric,Yes
+1467,219,1719,3,27,1.5,No,Electric,Electric,Yes
+1468,178,1404,3,28,1.5,No,Electric,Electric,Yes
+1469,295.925,2134,4,0,2.5,No,Gas,Hot Air,Yes
+1470,141.16,912,2,20,1.5,No,Electric,Electric,No
+1471,229.9,1423,3,9,1.5,Yes,Electric,Electric,Yes
+1472,254.9,2044,3,10,2,No,Gas,Hot Air,No
+1473,126,896,2,28,1,No,Oil,Hot Air,No
+1474,176.5,1380,3,55,1.5,Yes,Oil,Hot Water,Yes
+1475,161.8,960,3,41,1,No,Gas,Hot Air,No
+1476,112.2,840,2,44,1,No,Gas,Hot Air,No
+1477,154.5,1820,4,35,1.5,No,Gas,Hot Water,No
+1478,300,2144,3,19,2.5,Yes,Oil,Hot Air,Yes
+1479,206,1610,3,17,2,No,Gas,Hot Air,No
+1480,257,1752,3,6,2.5,No,Gas,Hot Air,No
+1481,182,1729,4,36,1.5,No,Gas,Hot Water,Yes
+1482,161,1056,3,37,1,No,Gas,Hot Air,No
+1483,176,1292,3,21,1.5,No,Electric,Electric,No
+1484,177.16,832,3,35,1,No,Oil,Hot Air,No
+1485,355.063,2256,4,0,2.5,Yes,Gas,Hot Air,Yes
+1486,213,1274,3,20,2,No,Electric,Electric,Yes
+1487,266.5,1608,3,18,2.5,No,Electric,Electric,No
+1488,285,1868,3,13,2.5,No,Gas,Hot Water,Yes
+1489,178.9,1554,3,21,1,No,Electric,Electric,No
+1490,300,3604,6,34,3.5,No,Gas,Hot Water,Yes
+1491,211,1887,4,41,2.5,Yes,Gas,Hot Water,Yes
+1492,451,1326,3,52,1,Yes,Oil,Hot Air,No
+1493,201.4,1876,3,30,2.5,No,Gas,Hot Water,Yes
+1494,195.9,1672,3,34,0,No,Gas,Hot Air,Yes
+1495,190,2064,4,35,2.5,Yes,Gas,Hot Air,Yes
+1496,150,1138,2,19,1,No,Electric,Electric,Yes
+1497,206,1814,3,19,1.5,Yes,Gas,Hot Air,Yes
+1498,285,2380,4,28,1.5,Yes,Electric,Electric,Yes
+1499,120,976,2,24,2,No,Electric,Electric,No
+1500,377.5,2886,4,21,2.5,Yes,Gas,Hot Air,Yes
+1501,340,2483,4,8,2.5,No,Gas,Hot Air,Yes
+1502,240,1846,3,35,1.5,No,Gas,Hot Air,Yes
+1503,295,2592,4,17,2.5,Yes,Gas,Hot Air,Yes
+1504,215,1792,3,21,1.5,Yes,Electric,Electric,No
+1505,275,2588,4,35,2.5,No,Gas,Hot Water,Yes
+1506,189,1210,3,53,1,No,Gas,Hot Water,No
+1507,156,1290,2,26,1.5,Yes,Gas,Hot Air,Yes
+1508,410,2444,4,11,3,No,Gas,Hot Air,Yes
+1509,264.5,2376,4,34,2.5,No,Gas,Hot Water,Yes
+1510,145.5,1480,3,20,1.5,No,Gas,Hot Air,No
+1511,116.5,1375,2,22,1.5,Yes,Gas,Hot Air,No
+1512,264.5,2676,4,40,2.5,No,Gas,Hot Water,Yes
+1513,215,1778,3,32,1.5,No,Gas,Hot Air,Yes
+1514,263,2570,5,28,2.5,No,Gas,Hot Water,Yes
+1515,243,1272,2,9,1.5,No,Gas,Hot Air,No
+1516,203,1852,3,30,1.5,Yes,Gas,Hot Air,Yes
+1517,335,2298,4,10,2.5,Yes,Gas,Hot Air,Yes
+1518,385,2259,4,7,2.5,Yes,Gas,Hot Air,Yes
+1519,210,2426,4,38,2.5,No,Gas,Hot Water,Yes
+1520,154,1480,3,20,1.5,No,Gas,Hot Water,Yes
+1521,155,1244,2,20,2,Yes,Gas,Hot Air,No
+1522,165,1479,3,22,1.5,No,Gas,Hot Air,No
+1523,300,2358,4,15,2.5,No,Gas,Hot Air,No
+1524,240,1453,4,33,2,Yes,Gas,Hot Air,Yes
+1525,182,2080,4,40,1.5,Yes,Gas,Hot Air,Yes
+1526,194,1960,3,64,1.5,No,Oil,Hot Water,Yes
+1527,410,2600,4,3,2.5,Yes,Gas,Hot Air,Yes
+1528,280,1897,4,18,2.5,Yes,Gas,Hot Air,Yes
+1529,235,1872,4,37,2.5,No,Gas,Hot Water,Yes
+1530,185,1260,2,27,1.5,Yes,Gas,Hot Air,Yes
+1531,167,1228,3,21,1.5,Yes,Gas,Hot Air,Yes
+1532,206.5,1956,4,35,2,Yes,Gas,Hot Air,No
+1533,165,1480,3,19,2.5,Yes,Gas,Hot Air,No
+1534,230,1793,4,42,1.5,Yes,Gas,Hot Air,Yes
+1535,235,2078,4,34,1.5,No,Gas,Hot Air,Yes
+1536,200.5,1666,3,26,1.5,Yes,Gas,Hot Air,Yes
+1537,310,2378,3,21,2.5,No,Gas,Hot Water,Yes
+1538,169.9,1452,3,27,1.5,Yes,Gas,Hot Air,Yes
+1539,210.5,1792,3,22,1.5,No,Electric,Electric,Yes
+1540,305,2290,4,16,2,No,Oil,Hot Water,Yes
+1541,508,3511,4,1,2.5,No,Gas,Hot Air,Yes
+1542,220,1922,4,39,1.5,No,Gas,Hot Air,No
+1543,256,2263,4,20,2.5,No,Gas,Hot Water,Yes
+1544,196.9,1672,4,35,1.5,Yes,Gas,Hot Air,No
+1545,233,1902,3,30,1.5,Yes,Gas,Hot Air,Yes
+1546,140,1479,2,20,1.5,Yes,Gas,Hot Air,Yes
+1547,162.9,1314,2,20,1.5,No,Electric,Electric,Yes
+1548,178,1302,2,18,1.5,Yes,Electric,Electric,No
+1549,265,2310,5,40,2.5,No,Gas,Hot Water,Yes
+1550,454.9,2880,4,9,2.5,No,Gas,Hot Air,Yes
+1551,215,1948,2,53,1.5,Yes,Oil,Hot Air,Yes
+1552,248,1613,3,16,1.5,Yes,Gas,Hot Air,Yes
+1553,395,2803,4,16,3,Yes,Gas,Hot Water,Yes
+1554,171.5,1479,3,20,1.5,Yes,Electric,Electric,Yes
+1555,268,2147,4,27,2.5,Yes,Gas,Hot Air,Yes
+1556,166.5,1314,2,20,1.5,Yes,Electric,Electric,Yes
+1557,355,2330,4,7,2.5,Yes,Gas,Hot Air,Yes
+1558,165,1352,3,13,1,No,Gas,Hot Air,No
+1559,300,2276,5,34,2.5,No,Gas,Hot Water,Yes
+1560,350,2162,4,18,2.5,Yes,Gas,Hot Air,Yes
+1561,279.9,2091,4,19,2.5,Yes,Gas,Hot Air,Yes
+1562,265,2564,4,37,2.5,No,Gas,Hot Water,Yes
+1563,267,2050,4,33,1.5,No,Gas,Hot Air,No
+1564,235,1768,3,38,2,No,Gas,Hot Water,No
+1565,299.9,2497,3,18,2.5,Yes,Gas,Hot Air,Yes
+1566,167,1290,2,26,1.5,Yes,Gas,Hot Air,Yes
+1567,168,1776,3,149,2,No,Oil,Hot Air,No
+1568,150,1480,3,21,1.5,No,Electric,Electric,No
+1569,255,1910,4,21,2.5,Yes,Gas,Hot Air,No
+1570,455,2828,3,29,2.5,Yes,Electric,Electric,Yes
+1571,351.1,2535,4,3,2.5,No,Gas,Hot Air,Yes
+1572,315,2576,4,36,2.5,No,Gas,Hot Water,Yes
+1573,220,1500,3,21,1.5,No,Gas,Hot Air,No
+1574,159,1480,3,20,1.5,No,Electric,Electric,No
+1575,341,2250,3,16,2.5,Yes,Gas,Hot Air,Yes
+1576,276,1831,3,19,2,Yes,Gas,Hot Air,Yes
+1577,309,2214,4,19,2.5,Yes,Gas,Hot Air,Yes
+1578,217.021,1846,3,31,1.5,No,Gas,Hot Water,No
+1579,188.5,1302,2,19,1.5,Yes,Gas,Hot Air,No
+1580,320,2212,4,33,2.5,Yes,Gas,Hot Air,Yes
+1581,247,1783,4,40,2.5,No,Gas,Hot Air,Yes
+1582,166,1480,2,21,1.5,No,Electric,Electric,Yes
+1583,236,1794,3,37,2,No,Oil,Hot Water,No
+1584,233.9,1918,4,32,1.5,Yes,Gas,Hot Air,Yes
+1585,162.74,1480,3,21,1.5,No,Gas,Hot Air,Yes
+1586,225,1756,4,35,1.5,No,Gas,Hot Air,Yes
+1587,360,2499,4,17,3,Yes,Gas,Hot Water,Yes
+1588,281.52,2310,5,34,3,Yes,Gas,Hot Water,Yes
+1589,365,2950,4,0,2.5,No,Gas,Hot Air,Yes
+1590,315,2702,4,20,2.5,Yes,Gas,Hot Air,Yes
+1591,297.9,2288,3,15,2.5,Yes,Gas,Hot Air,Yes
+1592,270,1838,4,35,1.5,Yes,Gas,Hot Air,No
+1593,260,2310,4,27,2.5,No,Gas,Hot Water,Yes
+1594,72,1152,3,85,1,No,Electric,Electric,No
+1595,229.5,1577,3,22,2,No,Gas,Hot Air,No
+1596,275,2175,4,19,2.5,No,Gas,Hot Water,Yes
+1597,155,1375,2,23,1.5,No,Gas,Hot Air,No
+1598,225.57,1616,3,27,3,No,Gas,Hot Water,Yes
+1599,224,1954,4,38,2,No,Gas,Hot Air,Yes
+1600,290,2728,4,34,2.5,No,Gas,Hot Water,Yes
+1601,262,2553,4,35,2.5,No,Gas,Hot Water,Yes
+1602,319.9,1963,4,3,2.5,No,Gas,Hot Air,Yes
+1603,265,2564,4,43,2.5,No,Gas,Hot Water,Yes
+1604,255,1792,3,19,1.5,Yes,Gas,Electric,Yes
+1605,217.3,1663,3,40,1,No,Gas,Hot Water,Yes
+1606,291,2070,4,6,2.5,Yes,Gas,Hot Air,Yes
+1607,319,2588,4,26,2.5,Yes,Oil,Hot Air,Yes
+1608,271.5,2276,5,35,2.5,No,Gas,Hot Water,Yes
+1609,224.9,1732,4,45,2,No,Gas,Hot Air,No
+1610,260,2310,5,39,2.5,No,Gas,Hot Water,Yes
+1611,199.9,1742,4,38,1,Yes,Gas,Hot Water,Yes
+1612,252.659,2802,4,36,2.5,No,Gas,Hot Water,Yes
+1613,312.5,1902,4,16,2.5,Yes,Gas,Hot Air,Yes
+1614,290,2030,4,22,2.5,Yes,Gas,Hot Air,Yes
+1615,155,1498,2,59,1,No,Gas,Hot Air,Yes
+1616,355,2116,3,20,2.5,Yes,Gas,Hot Air,Yes
+1617,190,2108,4,37,2.5,No,Gas,Hot Water,Yes
+1618,130,1480,2,16,2.5,Yes,Gas,Hot Air,Yes
+1619,264,2427,3,1,2.5,No,Gas,Hot Air,No
+1620,193.98,1348,2,12,2,No,Gas,Hot Air,No
+1621,219.9,1391,3,13,2,No,Gas,Hot Air,No
+1622,469.9,3422,4,2,4,Yes,Gas,Hot Air,Yes
+1623,314.23,2686,4,1,3,Yes,Gas,Hot Air,Yes
+1624,138.9,1034,2,14,1.5,Yes,Gas,Hot Water,No
+1625,160,1072,2,14,1,Yes,Gas,Hot Air,No
+1626,228,1512,3,12,2,No,Gas,Hot Air,No
+1627,224.4,1008,2,17,1,No,Electric,Electric,No
+1628,132.87,1480,3,17,1.5,No,Gas,Hot Water,Yes
+1629,135.6,912,3,34,1,No,Gas,Hot Air,No
+1630,150.6,1480,3,17,1.5,Yes,Gas,Hot Water,Yes
+1631,335,1558,3,16,2,No,Electric,Electric,Yes
+1632,316.25,2648,4,0,2.5,No,Gas,Hot Air,Yes
+1633,181.28,2248,4,26,1,No,Gas,Hot Air,No
+1634,158,1461,3,85,1,No,Oil,Hot Air,No
+1635,221,1470,3,11,2.5,No,Gas,Hot Air,Yes
+1636,230,1900,3,8,1.5,No,Gas,Hot Air,No
+1637,299,2054,4,8,2.5,Yes,Gas,Hot Air,No
+1638,148,1480,2,16,2.5,No,Gas,Hot Air,Yes
+1639,267.5,1822,3,14,2,No,Gas,Hot Air,No
+1640,259,1620,3,12,2.5,No,Gas,Hot Air,Yes
+1641,321,2120,4,14,2.5,Yes,Gas,Hot Air,No
+1642,409.79,3009,5,1,3.5,No,Gas,Hot Air,Yes
+1643,184,1791,4,35,1,No,Gas,Hot Air,No
+1644,145,1480,2,16,2.5,Yes,Electric,Hot Air,Yes
+1645,310,1300,3,14,2,No,Electric,Electric,No
+1646,170,1480,3,16,1.5,No,Gas,Hot Air,Yes
+1647,210.5,1876,3,15,2,No,Gas,Hot Air,No
+1648,199.9,1564,3,13,2,No,Gas,Hot Air,No
+1649,150,1248,3,70,1.5,No,Gas,Hot Water,No
+1650,153,1480,2,16,2.5,No,Gas,Hot Air,No
+1651,334,2281,4,12,2.5,No,Gas,Hot Air,Yes
+1652,216.9,2395,3,38,1.5,Yes,Gas,Hot Air,Yes
+1653,259,1915,4,15,2.5,No,Gas,Hot Air,Yes
+1654,240,1400,3,12,1.5,No,Gas,Hot Air,Yes
+1655,186.03,1104,4,38,1,Yes,Gas,Hot Air,No
+1656,203,1796,3,14,2.5,Yes,Gas,Hot Air,Yes
+1657,255,1512,3,15,1.5,No,Gas,Hot Air,No
+1658,119,1646,3,95,1,No,Gas,Hot Water,No
+1659,260.8,1868,3,5,2.5,No,Gas,Hot Air,Yes
+1660,169,1301,3,15,1.5,No,Gas,Hot Air,No
+1661,225,1652,3,15,2,No,Electric,Electric,No
+1662,124,1056,3,33,1,No,Oil,Hot Water,No
+1663,245,2312,3,22,1.5,No,Gas,Hot Air,No
+1664,250,2072,3,15,2.5,Yes,Gas,Hot Air,No
+1665,172,1200,2,20,1,No,Electric,Electric,No
+1666,153.5,1764,3,33,1.5,No,Oil,Hot Air,Yes
+1667,165,960,3,17,1,No,Gas,Hot Air,No
+1668,159,988,2,22,2,No,Gas,Hot Air,No
+1669,171.5,1514,3,19,1.5,No,Electric,Electric,No
+1670,240,1320,3,13,2,Yes,Gas,Hot Air,No
+1671,409.55,2719,3,1,2,Yes,Gas,Hot Air,Yes
+1672,302,1796,3,11,2.5,No,Gas,Hot Air,Yes
+1673,285,1709,3,4,2.5,No,Gas,Hot Air,Yes
+1674,385.9,3008,4,1,2.5,Yes,Gas,Hot Air,Yes
+1675,140.595,1350,3,71,1,No,Oil,Hot Air,No
+1676,213,1200,3,20,1.5,Yes,Electric,Electric,No
+1677,335,1857,3,3,2.5,Yes,Gas,Hot Air,Yes
+1678,290,2305,4,15,2.5,Yes,Gas,Hot Air,Yes
+1679,265,2184,3,1,2.5,Yes,Gas,Hot Air,Yes
+1680,334,1668,3,116,2,No,Gas,Hot Air,No
+1681,382.406,2712,4,1,2.5,Yes,Gas,Hot Air,Yes
+1682,149.3,912,2,20,1.5,No,Electric,Electric,No
+1683,212,1508,3,21,1.5,No,Electric,Electric,No
+1684,195,1232,3,28,1,No,Electric,Electric,Yes
+1685,245,1836,4,106,1.5,No,Gas,Hot Air,Yes
+1686,422.68,4486,6,176,4,No,Gas,Hot Water,Yes
+1687,240,2204,3,38,2,No,Oil,Hot Water,Yes
+1688,156,1184,3,19,2,No,Gas,Hot Air,No
+1689,265,2184,3,1,2.5,Yes,Gas,Hot Air,Yes
+1690,334,1668,3,116,2,No,Gas,Hot Air,No
+1691,382.406,2712,4,1,2.5,Yes,Gas,Hot Air,Yes
+1692,149.3,912,2,20,1.5,No,Electric,Electric,No
+1693,212,1508,3,21,1.5,No,Electric,Electric,No
+1694,195,1232,3,28,1,No,Electric,Electric,Yes
+1695,171.6,960,3,15,1,No,Electric,Electric,No
+1696,245,1836,4,106,1.5,No,Gas,Hot Air,Yes
+1697,282,1836,4,12,1.5,Yes,Gas,Hot Air,Yes
+1698,260,1803,4,42,1.5,No,Gas,Hot Water,No
+1699,254.5,1463,3,9,2,Yes,Gas,Hot Air,Yes
+1700,179.9,1290,2,27,1.5,Yes,Gas,Hot Air,Yes
+1701,255,2310,5,38,2.5,No,Gas,Hot Water,Yes
+1702,265,1664,3,40,2,Yes,Gas,Hot Water,Yes
+1703,174,1479,3,21,1.5,No,Gas,Hot Air,No
+1704,322,2483,4,7,2.5,Yes,Gas,Hot Air,Yes
+1705,337,2480,4,4,2.5,Yes,Gas,Hot Air,Yes
+1706,221.45,2699,6,121,1,No,Oil,Hot Air,Yes
+1707,247,1676,3,28,2.5,Yes,Gas,Hot Air,Yes
+1708,180,2816,5,38,2.5,No,Gas,Hot Water,Yes
+1709,229.9,1966,3,26,1.5,No,Gas,Hot Water,No
+1710,230,2112,4,39,1.5,No,Gas,Hot Air,Yes
+1711,388,2762,4,9,2.5,No,Gas,Hot Air,Yes
+1712,350,2184,3,23,2.5,Yes,Gas,Hot Air,Yes
+1713,169.7,1480,3,22,1.5,No,Electric,Electric,No
+1714,190,1624,3,39,1,No,Gas,Hot Air,No
+1715,317.5,1650,3,19,2,Yes,Gas,Hot Air,Yes
+1716,70,1313,2,34,1.5,No,Electric,Electric,No
+1717,300,2600,4,19,2.5,No,Gas,Hot Water,Yes
+1718,145.4,945,2,22,1,No,Gas,Hot Air,No
+1719,183.5,1121,3,57,1.5,No,Oil,Hot Air,No
+1720,275.9,2288,3,0,2.5,No,Gas,Hot Air,Yes
+1721,436.023,2718,4,5,2.5,Yes,Gas,Hot Air,Yes
+1722,319.9,2464,4,42,2.5,No,Gas,Hot Water,Yes
+1723,249,2426,4,41,2,No,Gas,Hot Water,Yes
+1724,289,2310,5,32,2.5,No,Gas,Hot Water,Yes
+1725,285,2564,4,37,2.5,No,Gas,Hot Water,Yes
+1726,194.9,1099,2,9,1,No,Gas,Hot Air,No
+1727,125,1225,3,48,1,No,Gas,Hot Air,Yes
+1728,111.3,1959,3,86,1,No,Gas,Hot Air,No
